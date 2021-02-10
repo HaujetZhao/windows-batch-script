@@ -1,8 +1,8 @@
 @echo off
 
-:: ä½œè€…ï¼šHaujet Zhao
-:: æ—¥æœŸï¼š2021 å¹´ 2 æœˆ 10 æ—¥
-:: è¿è¡Œæ­¤è„šæœ¬éœ€è¦å…ˆç¡®ä¿å®‰è£…æœ‰ï¼špngquant
+:: ×÷Õß£º´¾Ë§¶þ´ú
+:: ÈÕÆÚ£º2021 Äê 2 ÔÂ 10 ÈÕ
+:: ÔËÐÐ´Ë½Å±¾ÐèÒªÏÈÈ·±£°²×°ÓÐ£ºpngquant
 
 for %%i in (%*) do (
 	if /i %%~xi==.png (

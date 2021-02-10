@@ -25,7 +25,7 @@ if  %有连接%==True (
 		
 		set 随机文件名路径=%目标路径%/!random_str!
 		adb push %%i "!随机文件名路径!"
-		adb shell mv """!随机文件名路径!"" ""!正经路径!"""
+		adb shell "mv ""!随机文件名路径!"" ""!正经路径!"""
 	)
 ) else (
 	echo 无连接
