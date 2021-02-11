@@ -6,7 +6,7 @@ setlocal enabledelayedexpansion
 :: 运行此脚本需要先确保安装有：FFmpeg
 
 for %%i in (%*) do (
-	if /i %%~xi neq .mp4 (
+	if /i %%~xi neq .mp3 (
 		set 输入文件路径=%%~dpi
 		set 输入文件名称=%%~ni
 		set 输入文件拓展名=%%~xi
@@ -16,7 +16,7 @@ for %%i in (%*) do (
 		set 输入文件选项=-i
 		set 输入文件="%%~i"
 		
-		set 输出文件选项=-c copy
+		set 输出文件选项=
 		
 		set 输出到单独文件夹=
 		
@@ -34,7 +34,7 @@ for %%i in (%*) do (
 			mkdir !输出文件夹!
 		)
 		
-		set 输出文件路径="!输出文件夹!!输出文件名称!.mp4"
+		set 输出文件路径="!输出文件夹!!输出文件名称!.mp3"
 		
 		set 命令=ffmpeg !全局选项! !输入文件选项! !输入文件! !输出文件选项! !输出文件路径!
 		
