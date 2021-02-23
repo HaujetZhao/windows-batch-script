@@ -7,36 +7,36 @@ setlocal enabledelayedexpansion
 
 for %%i in (%*) do (
 	if /i %%~xi neq .mp4 (
-		set 输入文件路径=%%~dpi
-		set 输入文件名称=%%~ni
-		set 输入文件拓展名=%%~xi
+		set 输入路径=%%~dpi
+		set 输入主文件名=%%~ni
+		set 输入拓展名=%%~xi
 		
 		set 全局选项=-y -hide_banner
 		
-		set 输入文件选项=-i
-		set 输入文件="%%~i"
+		set 输入选项=-i
+		set 输入路径名="%%~i"
 		
 		set 输出文件选项=-c copy
 		
-		set 输出到单独文件夹=
+		set 输出单独文件夹名=
 		
-		set 输出文件名称=!输入文件名称!
+		set 输出主文件名=!输入主文件名!
 		
-		if defined 输出到单独文件夹 (
-			set 输出文件夹=!输入文件路径!!输出到单独文件夹!\
+		if defined 输出单独文件夹名 (
+			set 输出路径=!输入路径!!输出单独文件夹名!\
 			echo yes
 		) else (
-			set 输出文件夹=!输入文件路径!
+			set 输出路径=!输入路径!
 			echo no
 		)
 		
-		if not exist !输出文件夹! (
-			mkdir !输出文件夹!
+		if not exist !输出路径! (
+			mkdir !输出路径!
 		)
 		
-		set 输出文件路径="!输出文件夹!!输出文件名称!.mp4"
+		set 输出路径名="!输出路径!!输出主文件名!.mp4"
 		
-		set 命令=ffmpeg !全局选项! !输入文件选项! !输入文件! !输出文件选项! !输出文件路径!
+		set 命令=ffmpeg !全局选项! !输入选项! !输入路径名! !输出文件选项! !输出路径名!
 		
 		echo=
 		echo !命令!

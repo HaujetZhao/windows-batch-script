@@ -1,0 +1,3050 @@
+<head>
+<title>CMD命令速查手册</title>
+<meta http-equiv="Content-Type" content="text/html^; charset=gb2312" />
+</head>
+<A NAME="Top">
+<center><h1>CMD 命令速查手册</h1>Haujet - 2021/02/23 周二</center><br>
+<table>
+</td></tr><tr><td><a href="#ASSOC     ">ASSOC     </a></td><td>         显示或修改文件扩展名关联。 
+</td></tr><tr><td><a href="#ATTRIB    ">ATTRIB    </a></td><td>         显示或更改文件属性。 
+</td></tr><tr><td><a href="#BREAK     ">BREAK     </a></td><td>         设置或清除扩展式 CTRL+C 检查。 
+</td></tr><tr><td><a href="#BCDEDIT   ">BCDEDIT   </a></td><td>         设置启动数据库中的属性以控制启动加载。 
+</td></tr><tr><td><a href="#CACLS     ">CACLS     </a></td><td>         显示或修改文件的访问控制列表(ACL)。 
+</td></tr><tr><td><a href="#CALL      ">CALL      </a></td><td>         从另一个批处理程序调用这一个。 
+</td></tr><tr><td><a href="#CD        ">CD        </a></td><td>         显示当前目录的名称或将其更改。 
+</td></tr><tr><td><a href="#CHCP      ">CHCP      </a></td><td>         显示或设置活动代码页数。 
+</td></tr><tr><td><a href="#CHDIR     ">CHDIR     </a></td><td>         显示当前目录的名称或将其更改。 
+</td></tr><tr><td><a href="#CHKDSK    ">CHKDSK    </a></td><td>         检查磁盘并显示状态报告。 
+</td></tr><tr><td><a href="#CHKNTFS   ">CHKNTFS   </a></td><td>         显示或修改启动时间磁盘检查。 
+</td></tr><tr><td><a href="#CLS       ">CLS       </a></td><td>         清除屏幕。 
+</td></tr><tr><td><a href="#CMD       ">CMD       </a></td><td>         打开另一个 Windows 命令解释程序窗口。 
+</td></tr><tr><td><a href="#COLOR     ">COLOR     </a></td><td>         设置默认控制台前景和背景颜色。 
+</td></tr><tr><td><a href="#COMP      ">COMP      </a></td><td>         比较两个或两套文件的内容。 
+</td></tr><tr><td><a href="#COMPACT   ">COMPACT   </a></td><td>         显示或更改 NTFS 分区上文件的压缩。 
+</td></tr><tr><td><a href="#CONVERT   ">CONVERT   </a></td><td>         将 FAT 卷转换成 NTFS。你不能转换 
+      当前驱动器。  
+</td></tr><tr><td><a href="#COPY      ">COPY      </a></td><td>         将至少一个文件复制到另一个位置。 
+</td></tr><tr><td><a href="#DATE      ">DATE      </a></td><td>         显示或设置日期。 
+</td></tr><tr><td><a href="#DEL       ">DEL       </a></td><td>         删除至少一个文件。 
+</td></tr><tr><td><a href="#DIR       ">DIR       </a></td><td>         显示一个目录中的文件和子目录。 
+</td></tr><tr><td><a href="#DISKPART  ">DISKPART  </a></td><td>         显示或配置磁盘分区属性。 
+</td></tr><tr><td><a href="#DOSKEY    ">DOSKEY    </a></td><td>         编辑命令行、撤回 Windows 命令并 
+      创建宏。  
+</td></tr><tr><td><a href="#DRIVERQUE ">DRIVERQUE </a></td><td>   RY    显示当前设备驱动程序状态和属性。 
+</td></tr><tr><td><a href="#ECHO      ">ECHO      </a></td><td>         显示消息，或将命令回显打开或关闭。 
+</td></tr><tr><td><a href="#ENDLOCAL  ">ENDLOCAL  </a></td><td>         结束批文件中环境更改的本地化。 
+</td></tr><tr><td><a href="#ERASE     ">ERASE     </a></td><td>         删除一个或多个文件。 
+</td></tr><tr><td><a href="#EXIT      ">EXIT      </a></td><td>         退出 CMD.EXE 程序(命令解释程序)。 
+</td></tr><tr><td><a href="#FC        ">FC        </a></td><td>         比较两个文件或两个文件集并显示 
+      它们之间的不同。  
+</td></tr><tr><td><a href="#FIND      ">FIND      </a></td><td>         在一个或多个文件中搜索一个文本字符串。 
+</td></tr><tr><td><a href="#FINDSTR   ">FINDSTR   </a></td><td>         在多个文件中搜索字符串。 
+</td></tr><tr><td><a href="#FOR       ">FOR       </a></td><td>         为一组文件中的每个文件运行一个指定的命令。 
+</td></tr><tr><td><a href="#FORMAT    ">FORMAT    </a></td><td>         格式化磁盘，以便用于 Windows。 
+</td></tr><tr><td><a href="#FSUTIL    ">FSUTIL    </a></td><td>         显示或配置文件系统属性。 
+</td></tr><tr><td><a href="#FTYPE     ">FTYPE     </a></td><td>         显示或修改在文件扩展名关联中使用的文件 
+      类型。  
+</td></tr><tr><td><a href="#GOTO      ">GOTO      </a></td><td>         将 Windows 命令解释程序定向到批处理程序 
+      中某个带标签的行。  
+</td></tr><tr><td><a href="#GPRESULT  ">GPRESULT  </a></td><td>         显示计算机或用户的组策略信息。 
+</td></tr><tr><td><a href="#GRAFTABL  ">GRAFTABL  </a></td><td>         使 Windows 在图形模式下显示扩展 
+      字符集。  
+</td></tr><tr><td><a href="#HELP      ">HELP      </a></td><td>         提供 Windows 命令的帮助信息。 
+</td></tr><tr><td><a href="#ICACLS    ">ICACLS    </a></td><td>         显示、修改、备份或还原文件和 
+      目录的 ACL。  
+</td></tr><tr><td><a href="#IF        ">IF        </a></td><td>         在批处理程序中执行有条件的处理操作。 
+</td></tr><tr><td><a href="#LABEL     ">LABEL     </a></td><td>         创建、更改或删除磁盘的卷标。 
+</td></tr><tr><td><a href="#MD        ">MD        </a></td><td>         创建一个目录。 
+</td></tr><tr><td><a href="#MKDIR     ">MKDIR     </a></td><td>         创建一个目录。 
+</td></tr><tr><td><a href="#MKLINK    ">MKLINK    </a></td><td>         创建符号链接和硬链接 
+</td></tr><tr><td><a href="#MODE      ">MODE      </a></td><td>         配置系统设备。 
+</td></tr><tr><td><a href="#MORE      ">MORE      </a></td><td>         逐屏显示输出。 
+</td></tr><tr><td><a href="#MOVE      ">MOVE      </a></td><td>         将一个或多个文件从一个目录移动到另一个 
+      目录。  
+</td></tr><tr><td><a href="#OPENFILES ">OPENFILES </a></td><td>         显示远程用户为了文件共享而打开的文件。 
+</td></tr><tr><td><a href="#PATH      ">PATH      </a></td><td>         为可执行文件显示或设置搜索路径。 
+</td></tr><tr><td><a href="#PAUSE     ">PAUSE     </a></td><td>         暂停批处理文件的处理并显示消息。 
+</td></tr><tr><td><a href="#POPD      ">POPD      </a></td><td>         还原通过 PUSHD 保存的当前目录的上一个 
+      值。  
+</td></tr><tr><td><a href="#PRINT     ">PRINT     </a></td><td>         打印一个文本文件。 
+</td></tr><tr><td><a href="#PROMPT    ">PROMPT    </a></td><td>         更改 Windows 命令提示。 
+</td></tr><tr><td><a href="#PUSHD     ">PUSHD     </a></td><td>         保存当前目录，然后对其进行更改。 
+</td></tr><tr><td><a href="#RD        ">RD        </a></td><td>         删除目录。 
+</td></tr><tr><td><a href="#RECOVER   ">RECOVER   </a></td><td>         从损坏的或有缺陷的磁盘中恢复可读信息。 
+</td></tr><tr><td><a href="#REM       ">REM       </a></td><td>         记录批处理文件或 CONFIG.SYS 中的注释(批注)。 
+</td></tr><tr><td><a href="#REN       ">REN       </a></td><td>         重命名文件。 
+</td></tr><tr><td><a href="#RENAME    ">RENAME    </a></td><td>         重命名文件。 
+</td></tr><tr><td><a href="#REPLACE   ">REPLACE   </a></td><td>         替换文件。 
+</td></tr><tr><td><a href="#RMDIR     ">RMDIR     </a></td><td>         删除目录。 
+</td></tr><tr><td><a href="#ROBOCOPY  ">ROBOCOPY  </a></td><td>         复制文件和目录树的高级实用工具 
+</td></tr><tr><td><a href="#SET       ">SET       </a></td><td>         显示、设置或删除 Windows 环境变量。 
+</td></tr><tr><td><a href="#SETLOCAL  ">SETLOCAL  </a></td><td>         开始本地化批处理文件中的环境更改。 
+</td></tr><tr><td><a href="#SC        ">SC        </a></td><td>         显示或配置服务(后台进程)。 
+</td></tr><tr><td><a href="#SCHTASKS  ">SCHTASKS  </a></td><td>         安排在一台计算机上运行命令和程序。 
+</td></tr><tr><td><a href="#SHIFT     ">SHIFT     </a></td><td>         调整批处理文件中可替换参数的位置。 
+</td></tr><tr><td><a href="#SHUTDOWN  ">SHUTDOWN  </a></td><td>         允许通过本地或远程方式正确关闭计算机。 
+</td></tr><tr><td><a href="#SORT      ">SORT      </a></td><td>         对输入排序。 
+</td></tr><tr><td><a href="#START     ">START     </a></td><td>         启动单独的窗口以运行指定的程序或命令。 
+</td></tr><tr><td><a href="#SUBST     ">SUBST     </a></td><td>         将路径与驱动器号关联。 
+</td></tr><tr><td><a href="#SYSTEMINF ">SYSTEMINF </a></td><td>   O     显示计算机的特定属性和配置。 
+</td></tr><tr><td><a href="#TASKLIST  ">TASKLIST  </a></td><td>         显示包括服务在内的所有当前运行的任务。 
+</td></tr><tr><td><a href="#TASKKILL  ">TASKKILL  </a></td><td>         中止或停止正在运行的进程或应用程序。 
+</td></tr><tr><td><a href="#TIME      ">TIME      </a></td><td>         显示或设置系统时间。 
+</td></tr><tr><td><a href="#TITLE     ">TITLE     </a></td><td>         设置 CMD.EXE 会话的窗口标题。 
+</td></tr><tr><td><a href="#TREE      ">TREE      </a></td><td>         以图形方式显示驱动程序或路径的目录 
+      结构。  
+</td></tr><tr><td><a href="#TYPE      ">TYPE      </a></td><td>         显示文本文件的内容。 
+</td></tr><tr><td><a href="#VER       ">VER       </a></td><td>         显示 Windows 的版本。 
+</td></tr><tr><td><a href="#VERIFY    ">VERIFY    </a></td><td>         告诉 Windows 是否进行验证，以确保文件 
+      正确写入磁盘。  
+</td></tr><tr><td><a href="#VOL       ">VOL       </a></td><td>         显示磁盘卷标和序列号。 
+</td></tr><tr><td><a href="#XCOPY     ">XCOPY     </a></td><td>         复制文件和目录树。 
+</td></tr><tr><td><a href="#WMIC      ">WMIC      </a></td><td>         在交互式命令 shell 中显示 WMI 信息。 
+，请参阅联机帮助中的命令行参考。  
+</td></tr></table><br><a href="#top">返回页首</a><br>
+<a name="ASSOC"><h2>ASSOC</h2><pre>
+显示或修改文件扩展名关联
+
+ASSOC [.ext[=[fileType]]]
+
+  .ext      指定跟文件类型关联的文件扩展名
+  fileType  指定跟文件扩展名关联的文件类型
+
+键入 ASSOC 而不带参数，显示当前文件关联。如果只用文件扩展
+名调用 ASSOC，则显示那个文件扩展名的当前文件关联。如果不为
+文件类型指定任何参数，命令会删除文件扩展名的关联。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="ATTRIB"><h2>ATTRIB</h2><pre>
+显示或更改文件属性。
+
+ATTRIB [+R | -R] [+A | -A] [+S | -S] [+H | -H] [+O | -O] [+I | -I] [+X | -X] [+P | -P] [+U | -U]
+       [drive:][path][filename] [/S [/D]] [/L]
+
+  +   设置属性。
+  -   清除属性。
+  R   只读文件属性。
+  A   存档文件属性。
+  S   系统文件属性。
+  H   隐藏文件属性。
+  O   脱机属性。
+  I   无内容索引文件属性。
+   X   无清理文件属性。
+  V   完整性属性。
+  P   固定属性。
+  U   非固定属性。
+  [drive:][path][filename]
+      指定属性要处理的文件。
+  /S  处理当前文件夹及其所有子文件夹中
+      的匹配文件。
+  /D  也处理文件夹。
+  /L  处理符号链接和
+      符号链接目标的属性
+
+</pre><a href="#top">返回页首</a><br><br>
+<a name="BREAK"><h2>BREAK</h2><pre>
+设置或清除 DOS 系统的扩展 CTRL+C 检测
+
+这个命令是为了与 DOS 系统的兼容而保留的，在 Windows 
+里不起作用。
+
+如果命令扩展被启用，并且操作平台是 Windows，
+BREAK 命令会在被调试程序调试时输入一个硬代码中断点。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="BCDEDIT"><h2>BCDEDIT</h2><pre>
+BCDEDIT - 启动配置数据存储编辑器  
+Bcdedit.exe 命令行工具用于修改启动配置数据存储。  
+启动配置数据存储包含启动配置参数并  
+控制操作系统的启动方式。这些参数以前  
+位于 Boot.ini 文件中(在基于 BIOS 的操作系统中)或位于非易失性 RAM 项中  
+(在基于可扩展固件接口的操作系统中)。可以  
+使用 Bcdedit.exe 在启动配置数据存储中  
+添加、删除、编辑和附加项。  
+有关命令和选项的详细信息，请键入 bcdedit.exe /? &lt;command&gt;。例  
+如，若要显示有关 /createstore 命令的详细信息，请键入:  
+     bcdedit.exe /? /createstore  
+有关本帮助文件中按字母顺序排列的主题列表，请运行 "bcdedit /? TOPICS"。  
+对存储执行的命令  
+================================  
+/store          用于指定当前系统默认值以外的 BCD 存储。  
+/createstore    新建空的启动配置数据存储。  
+/export         将系统存储的内容导出到文件。以后  
+                可以使用该文件还原系统存储的状态。  
+/import         使用 /export 命令创建的备份文件来还原  
+系统存储的状态。  
+/sysstore       设置系统存储设备(仅影响 EFI 系统，在重新启动后不再保留，  
+               且仅用于系统存储  
+                设备不确定的情况下)。  
+对存储中的项执行的命令  
+===========================================  
+/copy           复制存储中的项。  
+/create         在存储中创建新项。  
+/delete         删除存储中的项。  
+/mirror         创建存储中项的镜像。  
+运行 bcdedit /? ID 可获得有关这些命令使用的标识符的信息。  
+对项选项执行的命令  
+======================================  
+/deletevalue    删除存储中的项选项。  
+/set            设置存储中的项选项值。  
+运行 bcdedit /? TYPES 可获得这些命令使用的数据类型的列表。  
+运行 bcdedit /? FORMATS 可获得有效数据格式的列表。  
+控制输出的命令  
+============================  
+/enum           列出存储中的项。  
+/v              命令行选项，完整显示项标识符，  
+                而不是使用已知标识符的名称。  
+                单独使用命令 /v 可完整  
+                显示 ACTIVE 类型的项标识符。  
+单独运行 "bcdedit" 等同于运行 "bcdedit /enum ACTIVE"。  
+控制启动管理器的命令  
+======================================  
+/bootsequence   为启动管理器设置一次性启动序列。  
+/default        设置启动管理器将使用的默认项。  
+/displayorder   设置启动管理器显示  
+                多重启动菜单的顺序。  
+/timeout        设置启动管理器的超时值。  
+/toolsdisplayorder  设置启动管理器显示工具  
+                    菜单的顺序。  
+控制启动应用程序紧急管理服务的命令  
+==========================================================================  
+/bootems        启用或禁用启动应用程序的  
+                紧急管理服务。  
+/ems            启用或禁用操作系统项的  
+                紧急管理服务。  
+/emssettings    设置全局紧急管理服务参数。  
+控制调试的命令  
+==============================  
+/bootdebug      启用或禁用启动应用程序的启动调试。  
+/dbgsettings    设置全局调试程序参数。  
+/debug          启用或禁用操作系统项的内核  
+                调试。  
+/hypervisorsettings  设置虚拟机监控程序的参数。  
+控制远程事件日志记录的命令  
+=========================================  
+/eventsettings  设置全局远程事件日志记录参数。  
+/event          启用或禁用操作系统项的远程  
+                事件日志记录。  
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CACLS"><h2>CACLS</h2><pre>
+
+ 注意: 不推荐使用 Cacls，请使用 Icacls。
+
+ 显示或者修改文件的访问控制列表(ACL)
+
+ CACLS filename [/T] [/M] [/L] [/S[:SDDL]] [/E] [/C] [/G user:perm]
+        [/R user [...]] [/P user:perm [...]] [/D user [...]]
+    filename      显示 ACL。
+    /T            更改当前目录及其所有子目录中
+                  指定文件的 ACL。
+    /L            对照目标处理符号链接本身
+    /M            更改装载到目录的卷的 ACL
+    /S            显示 DACL 的 SDDL 字符串。
+    /S:SDDL       使用在 SDDL 字符串中指定的 ACL 替换 ACL。
+                  (/E、/G、/R、/P 或 /D 无效)。
+    /E            编辑 ACL 而不替换。
+    /C            在出现拒绝访问错误时继续。
+    /G user:perm  赋予指定用户访问权限。
+                  Perm 可以是: R  读取
+                               W  写入
+                               C  更改(写入)
+                               F  完全控制
+    /R user       撤销指定用户的访问权限(仅在与 /E 一起使用时合法)。
+    /P user:perm  替换指定用户的访问权限。
+                  Perm 可以是: N  无
+                               R  读取
+                               W  写入
+                               C  更改(写入)
+                               F  完全控制
+    /D user       拒绝指定用户的访问。
+ 在命令中可以使用通配符指定多个文件。
+ 也可以在命令中指定多个用户。
+
+缩写:
+    CI - 容器继承。
+         ACE 会由目录继承。
+    OI - 对象继承。
+         ACE 会由文件继承。
+    IO - 只继承。
+         ACE 不适用于当前文件/目录。
+    ID - 已继承。
+         ACE 从父目录的 ACL 继承。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CALL"><h2>CALL</h2><pre>
+从批处理程序调用另一个批处理程序。
+
+CALL [drive:][path]filename [batch-parameters]
+
+  batch-parameters   指定批处理程序所需的命令行信息。
+
+如果命令扩展被启用，CALL 会如下改变:
+
+CALL 命令现在将卷标当作 CALL 的目标接受。语法是:
+
+    CALL:label arguments
+
+一个新的批文件上下文由指定的参数所创建，控制在卷标被指定
+后传递到语句。你必须通过达到批脚本文件末两次来 "exit" 两次。
+第一次读到文件末时，控制会回到 CALL 语句的紧后面。第二次
+会退出批脚本。键入 GOTO /?，参看 GOTO :EOF 扩展的描述，
+此描述允许你从一个批脚本返回。
+
+另外，批脚本文本参数参照(%0、%1、等等)已如下改变:
+
+
+     批脚本里的 %* 指出所有的参数(如 %1 %2 %3 %4 %5 ...)
+
+     批参数(%n)的替代已被增强。你可以使用以下语法:
+
+         %~1         - 删除引号(")，扩展 %1
+         %~f1        - 将 %1 扩展到一个完全合格的路径名
+         %~d1        - 仅将 %1 扩展到一个驱动器号
+         %~p1        - 仅将 %1 扩展到一个路径
+         %~n1        - 仅将 %1 扩展到一个文件名
+         %~x1        - 仅将 %1 扩展到一个文件扩展名
+         %~s1        - 扩展的路径只含有短名
+         %~a1        - 将 %1 扩展到文件属性
+         %~t1        - 将 %1 扩展到文件的日期/时间
+         %~z1        - 将 %1 扩展到文件的大小
+         %~$PATH:1   - 查找列在 PATH 环境变量的目录，并将 %1
+                       扩展到找到的第一个完全合格的名称。如果
+                       环境变量名未被定义，或者没有找到文件，
+                       此修改符会扩展到空字符串
+
+    可以组合修改符来取得多重结果:
+
+        %~dp1       - 只将 %1 扩展到驱动器号和路径
+        %~nx1       - 只将 %1 扩展到文件名和扩展名
+        %~dp$PATH:1 - 在列在 PATH 环境变量中的目录里查找 %1，
+                      并扩展到找到的第一个文件的驱动器号和路径。
+        %~ftza1     - 将 %1 扩展到类似 DIR 的输出行。
+
+    在上面的例子中，%1 和 PATH 可以被其他有效数值替换。
+    %~ 语法被一个有效参数号码终止。%~ 修定符不能跟 %*
+    使用
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CD"><h2>CD</h2><pre>
+显示当前目录名或改变当前目录。
+
+CHDIR [/D] [drive:][path]
+CHDIR [..]
+CD [/D] [drive:][path]
+CD [..]
+
+  ..   指定要改成父目录。
+
+键入 CD drive: 显示指定驱动器中的当前目录。
+不带参数只键入 CD，则显示当前驱动器和目录。
+
+使用 /D 开关，除了改变驱动器的当前目录之外，
+还可改变当前驱动器。
+
+如果命令扩展被启用，CHDIR 会如下改变:
+
+当前的目录字符串会被转换成使用磁盘名上的大小写。所以，
+如果磁盘上的大小写如此，CD C:\TEMP 会将当前目录设为
+C:\Temp。
+
+CHDIR 命令不把空格当作分隔符，因此有可能将目录名改为一个
+带有空格但不带有引号的子目录名。例如:
+
+     cd \winnt\profiles\username\programs\start menu
+
+与下列相同:  
+
+     cd "\winnt\profiles\username\programs\start menu" 
+
+在扩展停用的情况下，你必须键入以上命令。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CHCP"><h2>CHCP</h2><pre>
+显示或设置活动代码页编号。
+
+CHCP [nnn]
+
+  nnn   指定代码页编号。
+
+不带参数键入 CHCP 以显示活动代码页编号。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CHDIR"><h2>CHDIR</h2><pre>
+显示当前目录名或改变当前目录。
+
+CHDIR [/D] [drive:][path]
+CHDIR [..]
+CD [/D] [drive:][path]
+CD [..]
+
+  ..   指定要改成父目录。
+
+键入 CD drive: 显示指定驱动器中的当前目录。
+不带参数只键入 CD，则显示当前驱动器和目录。
+
+使用 /D 开关，除了改变驱动器的当前目录之外，
+还可改变当前驱动器。
+
+如果命令扩展被启用，CHDIR 会如下改变:
+
+当前的目录字符串会被转换成使用磁盘名上的大小写。所以，
+如果磁盘上的大小写如此，CD C:\TEMP 会将当前目录设为
+C:\Temp。
+
+CHDIR 命令不把空格当作分隔符，因此有可能将目录名改为一个
+带有空格但不带有引号的子目录名。例如:
+
+     cd \winnt\profiles\username\programs\start menu
+
+与下列相同:  
+
+     cd "\winnt\profiles\username\programs\start menu" 
+
+在扩展停用的情况下，你必须键入以上命令。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CHKDSK"><h2>CHKDSK</h2><pre>
+检查磁盘并显示状态报告。
+
+
+CHKDSK [volume[[path]filename]]] [/F] [/V] [/R] [/X] [/I] [/C] [/L[:size]] [/B] [/scan] [/spotfix]
+
+
+  volume              指定驱动器号(后面跟一个冒号)、
+                      装入点或卷名。
+  filename            仅 FAT/FAT32: 指定要检查
+                      碎片的文件。
+  /F                  修复磁盘上的错误。
+  /V                  在 FAT/FAT32 上: 显示磁盘上每个文件的
+                      完整路径和名称。
+                  在 NTFS 上: 显示清理消息(如果有)。
+  /R                  查找坏扇区并恢复可读信息
+                      (未指定 /scan 时，隐含 /F)。
+  /L:size             仅 NTFS: 将日志文件大小更改为指定
+                      的 KB 数。如果未指定大小，则显示
+                      当前大小。
+  /X                  如果必要，则先强制卸除卷。
+                       该卷的所有打开的句柄都将无效
+                      (隐含 /F)。
+  /I                  仅 NTFS: 对索引项进行强度较小的
+                      检查。
+  /C                  仅 NTFS: 跳过文件夹结构内的
+                      循环检查。
+  /B                  仅 NTFS: 重新评估该卷上的坏簇
+                      (隐含 /R)
+  /scan               仅 NTFS: 在卷上运行联机扫描
+  /forceofflinefix    仅 NTFS: (必须与 "/scan" 一起使用)
+                      跳过所有联机修复；找到的所有故障都
+                      排队等待脱机修复(即 "chkdsk /spotfix")。
+  /perf               仅 NTFS: (必须与 "/scan" 一起使用)
+                      使用更多系统资源尽快完成
+                      扫描。这可能会对系统中运行的其他任务的性能
+                      造成负面影响。
+  /spotfix            仅 NTFS: 在卷上运行点修复
+  /sdcleanup          仅 NTFS: 回收不需要的安全描述符
+                      数据(隐含 /F)。
+  /offlinescanandfix  在卷上运行脱机扫描并进行修复。
+  /freeorphanedchains 仅 FAT/FAT32/exFAT: 释放所有孤立的簇链
+                      而不恢复其内容。
+  /markclean          仅 FAT/FAT32/exFAT: 如果未检测到损坏，则将卷
+                      标记为干净，即使未指定 /F 也是如此。
+
+/I 或 /C 开关通过跳过对卷的某些检查，
+来减少运行 Chkdsk 所需的时间。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CHKNTFS"><h2>CHKNTFS</h2><pre>
+启动时显示或修改磁盘检查。
+
+CHKNTFS volume [...]
+CHKNTFS /D
+CHKNTFS /T[:time]
+CHKNTFS /X volume [...]
+CHKNTFS /C volume [...]
+
+  volume         指定驱动器号(后面跟一个冒号)、装入点或卷名。
+  /D             将计算机还原为默认行为；
+                 启动时检查所有驱动器，并对有问题的驱动器运行 chkdsk。
+  /T:time        将 AUTOCHK 初始递减计数时间
+                 更改为指定的时间，单位为秒。
+                 如果没有指定时间，则显示当前设置。
+  /X             将驱动器排除在启动时检查范围之外。被排除的驱动器在命令调用之间不会
+                 累计。
+  /C             安排驱动器在启动时检查；
+                 如果驱动器有问题，则运行 chkdsk。
+
+如果未指定开关，CHKNTFS 将显示指定的驱动器是否有问题
+或者是否计划在下一次重新启动时执行检查。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CLS"><h2>CLS</h2><pre>
+清除屏幕。
+
+CLS
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CMD"><h2>CMD</h2><pre>
+启动 Windows 命令解释器的一个新实例  
+CMD [/A | /U] [/Q] [/D] [/E:ON | /E:OFF] [/F:ON | /F:OFF] [/V:ON | /V:OFF]  
+    [[/S] [/C | /K] string]  
+/C      执行字符串指定的命令然后终止  
+/K      执行字符串指定的命令但保留  
+/S      修改 /C 或 /K 之后的字符串处理(见下)  
+/Q      关闭回显  
+/D      禁止从注册表执行 AutoRun 命令(见下)  
+/A      使向管道或文件的内部命令输出成为 ANSI  
+/U      使向管道或文件的内部命令输出成为  
+        Unicode  
+/T:fg   设置前台/背景颜色(详细信息见 COLOR /?)  
+/E:ON   启用命令扩展(见下)  
+/E:OFF  禁用命令扩展(见下)  
+/F:ON   启用文件和目录名完成字符(见下)  
+/F:OFF  禁用文件和目录名完成字符(见下)  
+/V:ON   使用  作为分隔符启用延迟的环境变量  
+        扩展。例如，/V:ON 会允许  在执行时  
+        扩展变量 var。var 语法会在输入时  
+        扩展变量，这与在一个 FOR  
+        循环内不同。  
+/V:OFF  禁用延迟的环境扩展。  
+注意，如果字符串加有引号，可以接受用命令分隔符 "&&"  
+分隔多个命令。另外，由于兼容性  
+原因，/X 与 /E:ON 相同，/Y 与 /E:OFF 相同，且 /R 与  
+/C 相同。任何其他开关都将被忽略。  
+如果指定了 /C 或 /K，则会将该开关之后的  
+命令行的剩余部分作为一个命令行处理，其中，会使用下列逻辑  
+处理引号(")字符:  
+    1.  如果符合下列所有条件，则会保留  
+        命令行上的引号字符:  
+        - 不带 /S 开关  
+        - 正好两个引号字符  
+        - 在两个引号字符之间无任何特殊字符，  
+          特殊字符指下列字符: &&lt;&gt;()@^|  
+        - 在两个引号字符之间至少有  
+          一个空格字符  
+        - 在两个引号字符之间的字符串是某个  
+          可执行文件的名称。  
+    2.  否则，老办法是看第一个字符  
+        是否是引号字符，如果是，则去掉首字符并  
+        删除命令行上最后一个引号，保留  
+        最后一个引号之后的所有文本。  
+如果 /D 未在命令行上被指定，当 CMD.EXE 开始时，它会寻找  
+以下 REG_SZ/REG_EXPAND_SZ 注册表变量。如果其中一个或  
+两个都存在，这两个变量会先被执行。  
+    HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\AutoRun  
+        和/或  
+    HKEY_CURRENT_USER\Software\Microsoft\Command Processor\AutoRun  
+命令扩展是按默认值启用的。你也可以使用 /E:OFF ，为某一  
+特定调用而停用扩展。你  
+可以在机器上和/或用户登录会话上  
+启用或停用 CMD.EXE 所有调用的扩展，这要通过设置使用  
+REGEDIT.EXE 的注册表中的一个或两个 REG_DWORD 值:  
+    HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\EnableExtensions  
+        和/或  
+    HKEY_CURRENT_USER\Software\Microsoft\Command Processor\EnableExtensions  
+到 0x1 或 0x0。用户特定设置  
+比机器设置有优先权。命令行  
+开关比注册表设置有优先权。  
+在批处理文件中，SETLOCAL ENABLEEXTENSIONS 或 DISABLEEXTENSIONS 参数  
+比 /E:ON 或 /E:OFF 开关有优先权。请参阅 SETLOCAL /? 获取详细信息。  
+命令扩展包括对下列命令所做的  
+更改和/或添加:  
+    DEL or ERASE  
+    COLOR  
+    CD or CHDIR  
+    MD or MKDIR  
+    PROMPT  
+    PUSHD  
+    POPD  
+    SET  
+    SETLOCAL  
+    ENDLOCAL  
+    IF  
+    FOR  
+    CALL  
+    SHIFT  
+    GOTO  
+    START (同时包括对外部命令调用所做的更改)  
+    ASSOC  
+    FTYPE  
+有关特定详细信息，请键入 commandname /? 查看。  
+延迟环境变量扩展不按默认值启用。你  
+可以用/V:ON 或 /V:OFF 开关，为 CMD.EXE 的某个调用而  
+启用或停用延迟环境变量扩展。你  
+可以在机器上和/或用户登录会话上启用或停用 CMD.EXE 所有  
+调用的延迟扩展，这要通过设置使用 REGEDIT.EXE 的注册表中的  
+一个或两个 REG_DWORD 值:  
+    HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\DelayedExpansion  
+        和/或  
+    HKEY_CURRENT_USER\Software\Microsoft\Command Processor\DelayedExpansion  
+到 0x1 或 0x0。用户特定设置  
+比机器设置有优先权。命令行开关  
+比注册表设置有优先权。  
+在批处理文件中，SETLOCAL ENABLEDELAYEDEXPANSION 或 DISABLEDELAYEDEXPANSION  
+参数比 /V:ON 或 /V:OFF 开关有优先权。请参阅 SETLOCAL /?   
+获取详细信息。  
+如果延迟环境变量扩展被启用，  
+惊叹号字符可在执行时间被用来  
+代替一个环境变量的数值。  
+你可以用 /F:ON 或 /F:OFF 开关为 CMD.EXE 的某个  
+调用而启用或禁用文件名完成。你可以在计算上和/或  
+用户登录会话上启用或禁用 CMD.EXE 所有调用的完成，  
+这可以通过使用 REGEDIT.EXE 设置注册表中的下列  
+ REG_DWORD 的全部或其中之一:  
+    HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\CompletionChar  
+    HKEY_LOCAL_MACHINE\Software\Microsoft\Command Processor\PathCompletionChar  
+        和/或  
+    HKEY_CURRENT_USER\Software\Microsoft\Command Processor\CompletionChar  
+    HKEY_CURRENT_USER\Software\Microsoft\Command Processor\PathCompletionChar  
+由一个控制字符的十六进制值作为一个特定参数(例如，0x4  
+是Ctrl-D，0x6 是 Ctrl-F)。用户特定设置优先于机器设置。  
+命令行开关优先于注册表设置。  
+如果完成是用 /F:ON 开关启用的，两个要使用的控制符是:   
+目录名完成用 Ctrl-D，文件名完成用 Ctrl-F。要停用  
+注册表中的某个字符，请用空格(0x20)的数值，因为此字符  
+不是控制字符。  
+如果键入两个控制  
+字符中的一个，完成会被调用。完成功能将路径字符串带到光标的左边，  
+如果没有通配符，将通配符附加到左边，并建立相符的路径列表。然后，  
+显示第一个相符的路径。  
+如果没有相符的路径，则发出嘟嘟声，不影响显示。  
+之后，重复按同一个控制  
+字符会循环显示相符路径的列表。  
+将 Shift 键跟控制字符同时按下，会倒着显示列表。  
+如果对该行进行了任何编辑，并再次按下控制  
+字符，保存的相符路径的列表会被丢弃，新的  
+会被生成。如果在文件和目录名完成之间切换，  
+会发生同样现象。两个控制字符之间的唯一区别是  
+文件完成字符匹配文件和目录名，  
+而目录完成字符只符合目录名。  
+如果文件完成被用于内置式目录命令  
+(CD、MD 或 RD)，就会使用目录完成。  
+用引号将相符路径括起来，  
+完成代码可以正确处理含有空格或其他特殊字符的文件名。  
+同时，如果备份，然后从行内调用文件完成，  
+则调用完成时位于光标右方的文字会被  
+弃用。  
+需要引号的特殊字符是:  
+&lt;space&gt;  
+ &()[]{}=;'+,`~  
+</pre><a href="#top">返回页首</a><br><br>
+<a name="COLOR"><h2>COLOR</h2><pre>
+设置默认的控制台前景和背景颜色。
+
+COLOR [attr]
+
+  attr        指定控制台输出的颜色属性。
+
+颜色属性由两个十六进制数字指定 -- 第一个
+对应于背景，第二个对应于前景。每个数字
+可以为以下任何值:
+
+    0 = 黑色       8 = 灰色
+    1 = 蓝色       9 = 淡蓝色
+    2 = 绿色       A = 淡绿色
+    3 = 浅绿色     B = 淡浅绿色
+    4 = 红色       C = 淡红色
+    5 = 紫色       D = 淡紫色
+    6 = 黄色       E = 淡黄色
+    7 = 白色       F = 亮白色
+
+如果没有给定任何参数，此命令会将颜色还原到 CMD.EXE 启动时
+的颜色。这个值来自当前控制台
+窗口、/T 命令行开关或 DefaultColor 注册表
+值。
+
+如果尝试使用相同的
+前景和背景颜色来执行
+ COLOR 命令，COLOR 命令会将 ERRORLEVEL 设置为 1。
+
+示例: "COLOR fc" 在亮白色上产生淡红色
+</pre><a href="#top">返回页首</a><br><br>
+<a name="COMP"><h2>COMP</h2><pre>
+比较两个文件或两个文件集的内容。
+
+COMP [data1] [data2] [/D] [/A] [/L] [/N=number] [/C] [/OFF[LINE]] [/M]
+
+  data1      指定要比较的第一批文件的位置和名称。
+  data2      指定要比较的第二批文件的位置和名称。
+  /D         以十进制格式显示差异。
+  /A         以 ASCII 字符显示差异。
+  /L         显示不同的行数。
+  /N=number  只比较每个文件中第一个指定的行数。
+  /C         比较文件时 ASCII 字母不区分大小写。
+  /OFF[LINE] 不要跳过带有脱机属性集的文件。
+  /M         不提示比较更多文件。
+
+要比较文件集，请在 data1 和 data2 参数中使用通配符。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="COMPACT"><h2>COMPACT</h2><pre>
+显示或改变 NTFS 分区上文件的压缩。
+
+COMPACT [/C | /U] [/S[:dir]] [/A] [/I] [/F] [/Q] [/EXE[:algorithm]]
+        [/CompactOs[:option] [/WinDir:dir]] [filename [...]]
+
+  /C        压缩指定的文件。将对目录进行标记，
+            以便压缩随后添加的文件，除非 /EXE
+            已指定。
+  /U        解压缩指定的文件。将对目录进行标记，
+            这样就不会压缩随后添加的文件。如果指定了
+            /EXE，则只有压缩为可执行文件的文件才会
+            进行解压缩；如果省略此项，则只有 NTFS 压缩
+            文件才会进行解压缩。
+  /S        对给定目录和所有子目录中的文件
+            执行指定的操作。默认 "dir" 是
+            当前目录。
+  /A        显示包含隐藏属性或系统属性的文件。默认情况下，
+            这些文件将被省略。
+  /I        即使在出现错误后也继续执行
+            指定的操作。默认情况下，COMPACT 将在遇到错误
+            时停止。
+  /F        对所有指定文件强制执行压缩操作，即使
+            是已压缩的文件也是如此。默认情况下，将跳过
+            已压缩的文件。
+  /Q        仅报告最重要的信息。
+  /EXE      使用针对经常读取但未修改的可执行文件
+            优化的压缩。支持的算法是:
+            XPRESS4K  (最快速) (默认)
+            XPRESS8K
+            XPRESS16K
+            LZX       (压缩程度最高)
+  /CompactOs 设置或查询系统的压缩状态。支持的选项包括:
+             query  - 查询系统的压缩状态。
+             always - 压缩所有 OS 二进制文件并将系统状态设置为"压缩"，
+                      这种状态一直保持到管理员更改它。
+             never  - 解压缩所有 OS 二进制文件并将系统状态设置为"未压缩"，
+                      这种状态一直保持到管理员更改它。
+  /WinDir    在查询脱机 OS 时与 /CompactOs:query 一起使用。指定
+             Windows 所安装到的目录。
+  filename   指定模式、文件或目录。
+
+  不跟参数一起使用时，COMPACT 显示当前目录及其所含文件的
+  压缩状态。你可以使用多个
+  文件名和通配符。在多个参数之间
+  必须加空格。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="CONVERT"><h2>CONVERT</h2><pre>
+将 FAT 卷转换为 NTFS。
+
+CONVERT volume /FS:NTFS [/V] [/CvtArea:filename] [/NoSecurity] [/X]
+
+
+  volume      指定驱动器号(后面跟一个冒号)、装入点或卷名。
+  /FS:NTFS    指定要将此卷转换为 NTFS。
+  /V          指定将在详细模式下运行 Convert。
+  /CvtArea:filename
+              指定根目录中的一个连续文件，该文件
+              将是 NTFS 系统文件的占位符。
+  /NoSecurity 指定所有用户均可以访问
+              转换文件和目录的安全设置。
+  /X          如果必要，请先强制卸除卷。
+              该卷的所有打开句柄将会无效。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="COPY"><h2>COPY</h2><pre>
+将一份或多份文件复制到另一个位置。
+
+COPY [/D] [/V] [/N] [/Y | /-Y] [/Z] [/L] [/A | /B ] source [/A | /B]
+     [+ source [/A | /B] [+ ...]] [destination [/A | /B]]
+
+  source       指定要复制的文件。
+  /A           表示一个 ASCII 文本文件。
+  /B           表示一个二进位文件。
+  /D           允许解密要创建的目标文件
+  destination  为新文件指定目录和/或文件名。
+  /V           验证新文件写入是否正确。
+  /N           复制带有非 8dot3 名称的文件时，
+               尽可能使用短文件名。
+  /Y           不使用确认是否要覆盖现有目标文件
+               的提示。
+  /-Y          使用确认是否要覆盖现有目标文件
+               的提示。
+  /Z           用可重新启动模式复制已联网的文件。
+/L           如果源是符号链接，请将链接复制
+               到目标而不是源链接指向的实际文件。
+
+命令行开关 /Y 可以在 COPYCMD 环境变量中预先设定。
+这可能会被命令行上的 /-Y 替代。除非 COPY
+命令是在一个批处理脚本中执行的，默认值应为
+在覆盖时进行提示。
+
+要附加文件，请为目标指定一个文件，为源指定
+数个文件(用通配符或 file1+file2+file3 格式)。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="DATE"><h2>DATE</h2><pre>
+显示或设置日期。
+
+DATE [/T | date]
+
+显示当前日期设置和输入新日期的提示，请键入
+不带参数的 DATE。要保留现有日期，请按 Enter。
+
+如果命令扩展被启用，DATE 命令会支持 /T 开关；
+该开关指示命令只输出当前日期，但不提示输入新日期。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="DEL"><h2>DEL</h2><pre>
+删除一个或多个文件。
+
+DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+
+  names         指定一个或多个文件或者目录列表。
+                通配符可用来删除多个文件。
+                如果指定了一个目录，该目录中的所
+                有文件都会被删除。
+
+  /P            删除每一个文件之前提示确认。
+  /F            强制删除只读文件。
+  /S            删除所有子目录中的指定的文件。
+  /Q            安静模式。删除全局通配符时，不要求确认
+  /A            根据属性选择要删除的文件
+  属性          R  只读文件            S  系统文件
+                H  隐藏文件            A  准备存档的文件
+                I  无内容索引文件      L  重新分析点
+                O  脱机文件            -  表示“否”的前缀
+
+如果命令扩展被启用，DEL 和 ERASE 更改如下:
+
+/S 开关的显示句法会颠倒，即只显示已经
+删除的文件，而不显示找不到的文件。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="DIR"><h2>DIR</h2><pre>
+显示目录中的文件和子目录列表。
+
+DIR [drive:][path][filename] [/A[[:]attributes]] [/B] [/C] [/D] [/L] [/N]
+  [/O[[:]sortorder]] [/P] [/Q] [/R] [/S] [/T[[:]timefield]] [/W] [/X] [/4]
+
+  [drive:][path][filename]
+              指定要列出的驱动器、目录和/或文件。
+
+  /A          显示具有指定属性的文件。
+  属性         D  目录                R  只读文件
+               H  隐藏文件            A  准备存档的文件
+               S  系统文件            I  无内容索引文件
+               L  重新分析点          O  脱机文件
+               -  表示“否”的前缀
+  /B          使用空格式(没有标题信息或摘要)。
+  /C          在文件大小中显示千位数分隔符。这是默认值。用 /-C 来
+              禁用分隔符显示。
+  /D          跟宽式相同，但文件是按栏分类列出的。
+  /L          用小写。
+  /N          新的长列表格式，其中文件名在最右边。
+  /O          用分类顺序列出文件。
+  排列顺序     N  按名称(字母顺序)     S  按大小(从小到大)
+               E  按扩展名(字母顺序)   D  按日期/时间(从先到后)
+               G  组目录优先           -  反转顺序的前缀
+  /P          在每个信息屏幕后暂停。
+  /Q          显示文件所有者。
+  /R          显示文件的备用数据流。
+  /S          显示指定目录和所有子目录中的文件。
+  /T          控制显示或用来分类的时间字符域
+  时间段      C  创建时间
+              A  上次访问时间
+              W  上次写入的时间
+  /W          用宽列表格式。
+  /X          显示为非 8dot3 文件名产生的短名称。格式是 /N 的格式，
+              短名称插在长名称前面。如果没有短名称，在其位置则
+              显示空白。
+  /4          以四位数字显示年份
+
+可以在 DIRCMD 环境变量中预先设定开关。通过添加前缀 - (破折号)
+来替代预先设定的开关。例如，/-W。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="DISKPART"><h2>DISKPART</h2><pre>
+</pre><a href="#top">返回页首</a><br><br>
+<a name="DOSKEY"><h2>DOSKEY</h2><pre>
+编辑命令行，重新调用 Windows 命令，并创建宏。
+
+DOSKEY [/REINSTALL] [/LISTSIZE=size] [/MACROS[:ALL | :exename]]
+  [/HISTORY] [/INSERT | /OVERSTRIKE] [/EXENAME=exename] [/MACROFILE=filename]
+  [macroname=[text]]
+
+  /REINSTALL          安装新的 Doskey 副本。
+  /LISTSIZE=size      设置命令历史记录的缓冲区大小。
+  /MACROS             显示所有 Doskey 宏。
+  /MACROS:ALL         为具有 Doskey 宏的所有可执行文件显示
+所有 Doskey 宏。
+  /MACROS:exename     显示指定可执行文件的所有 Doskey 宏。
+  /HISTORY            显示存储在内存中的所有命令。
+  /INSERT             指定你键入的新文本插入到旧文本中。
+  /OVERSTRIKE         指定新文本覆盖旧文本。
+  /EXENAME=exename    指定可执行文件。
+  /MACROFILE=filename 指定要安装的宏文件。
+  macroname           指定你创建的宏的名称。
+  text                指定要录制的命令。
+
+上下箭头 重新调用命令；Esc 清除命令行；F7 
+显示命令历史记录；Alt+F7 清除
+命令历史记录；F8 搜索命令历史记录；F9 按编号选择命令；Alt+F10 清除宏定义。
+
+以下是 Doskey 宏定义的一些特殊代码:
+$T     命令分隔符。允许一个宏中存在多个命令。
+$1-$9  批处理参数。与批处理程序中的 %1-%9 等同。
+$*     以命令行中命令名称后面的任何内容替换的符号。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="DRIVERQUERY"><h2>DRIVERQUERY</h2><pre>
+
+DRIVERQUERY [/S system [/U username [/P [password]]]]
+              [/FO format] [/NH] [/SI] [/V] 
+描述:
+    允许管理员显示已安装设备驱动程序
+    的列表。
+
+参数列表:
+      /S     system           指定要连接到的远程系统。
+
+      /U     [domain\]user    执行命令执行的用户上下文。
+
+      /P     [password]       指定所给用户上下文的密码。
+
+      /FO    format           指定要显示的结果类型。与命令行开关一起传递
+                              的有效值是 "TABLE"、"LIST"、" CSV"。
+
+      /NH                     指定“列标题”不应该在屏幕输出中
+                              出现。只对 "TABLE" 和 "CSV" 格式有效。
+
+      /SI                     提供有关已签名驱动程序的信息。
+
+      /V                      显示详细任务输出。对签名的驱动程序无效。
+
+      /?                      显示该帮助消息。
+
+示例:
+    DRIVERQUERY
+    DRIVERQUERY /FO CSV /SI
+    DRIVERQUERY /NH
+    DRIVERQUERY /S ipaddress /U user /V 
+    DRIVERQUERY /S system /U domain\user /P password /FO LIST
+</pre><a href="#top">返回页首</a><br><br>
+<a name="ECHO"><h2>ECHO</h2><pre>
+显示消息，或者启用或关闭命令回显。
+
+  ECHO [ON | OFF]
+  ECHO [message]
+
+若要显示当前回显设置，请键入不带参数的 ECHO。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="ENDLOCAL"><h2>ENDLOCAL</h2><pre>
+结束批处理文件中环境改动的本地化操作。在执行ENDLOCAL 之后
+所做的环境改动不再仅限于批处理文件。批处理文件结束后，
+原先的设置无法还原。
+
+ENDLOCAL
+
+如果命令扩展被启用，ENDLOCAL 会如下改变:
+
+如果相应的 SETLOCAL 用新的 ENABLEEXTENSIONS 或
+DISABLEEXTENSIONS 选项启用或停用了命令扩展，那么，在 
+ENDLOCAL 之后，命令扩展的启用/停用状态会还原到执行
+相应的 SETLOCAL 命令前的状态。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="ERASE"><h2>ERASE</h2><pre>
+删除一个或多个文件。
+
+DEL [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+ERASE [/P] [/F] [/S] [/Q] [/A[[:]attributes]] names
+
+  names         指定一个或多个文件或者目录列表。
+                通配符可用来删除多个文件。
+                如果指定了一个目录，该目录中的所
+                有文件都会被删除。
+
+  /P            删除每一个文件之前提示确认。
+  /F            强制删除只读文件。
+  /S            删除所有子目录中的指定的文件。
+  /Q            安静模式。删除全局通配符时，不要求确认
+  /A            根据属性选择要删除的文件
+  属性          R  只读文件            S  系统文件
+                H  隐藏文件            A  准备存档的文件
+                I  无内容索引文件      L  重新分析点
+                O  脱机文件            -  表示“否”的前缀
+
+如果命令扩展被启用，DEL 和 ERASE 更改如下:
+
+/S 开关的显示句法会颠倒，即只显示已经
+删除的文件，而不显示找不到的文件。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="EXIT"><h2>EXIT</h2><pre>
+退出 CMD.EXE 程序(命令解释器)或当前批处理脚本。
+
+EXIT [/B] [exitCode]
+
+  /B          指定要退出当前批处理脚本而不是 CMD.EXE。如果从一个
+              批处理脚本外执行，则会退出 CMD.EXE
+
+  exitCode    指定一个数字号码。如果指定了 /B，将 ERRORLEVEL
+              设成那个数字。如果退出 CMD.EXE，则用那个数字设置
+              过程退出代码。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="FC"><h2>FC</h2><pre>
+比较两个文件或两个文件集并显示它们之间
+的不同
+
+
+FC [/A] [/C] [/L] [/LBn] [/N] [/OFF[LINE]] [/T] [/U] [/W] [/nnnn]
+   [drive1:][path1]filename1 [drive2:][path2]filename2
+FC /B [drive1:][path1]filename1 [drive2:][path2]filename2
+
+  /A         只显示每个不同处的第一行和最后一行。
+  /B         执行二进制比较。
+  /C         不分大小写。
+  /L         将文件作为 ASCII 文字比较。
+  /LBn       将连续不匹配的最大值设置为指定
+             的行数。
+  /N         在 ASCII 比较上显示行数。
+  /OFF[LINE] 不要跳过带有脱机属性集的文件。
+  /T         不要将制表符扩充到空格。
+  /U         将文件作为 UNICODE 文本文件比较。
+  /W         为了比较而压缩空白(制表符和空格)。
+  /nnnn      指定不匹配处后必须连续
+             匹配的行数。
+  [drive1:][path1]filename1
+             指定要比较的第一个文件或第一个文件集。
+  [drive2:][path2]filename2
+             指定要比较的第二个文件或第二个文件集。
+
+</pre><a href="#top">返回页首</a><br><br>
+<a name="FIND"><h2>FIND</h2><pre>
+在文件中搜索字符串。
+
+FIND [/V] [/C] [/N] [/I] [/OFF[LINE]] "string" [[drive:][path]filename[ ...]]
+
+  /V         显示所有未包含指定字符串的行。
+  /C         仅显示包含字符串的行数。
+  /N         显示行号。
+  /I         搜索字符串时忽略大小写。
+  /OFF[LINE] 不要跳过具有脱机属性集的文件。
+  "string" 指定要搜索的文本字符串。
+  [drive:][path]filename
+             指定要搜索的文件。
+
+如果没有指定路径，FIND 将搜索在提示符处键入
+的文本或者由另一命令产生的文本。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="FINDSTR"><h2>FINDSTR</h2><pre>
+在文件中寻找字符串。
+
+FINDSTR [/B] [/E] [/L] [/R] [/S] [/I] [/X] [/V] [/N] [/M] [/O] [/P] [/F:file]
+        [/C:string] [/G:file] [/D:dir list] [/A:color attributes] [/OFF[LINE]]
+        strings [[drive:][path]filename[ ...]]
+
+  /B         在一行的开始配对模式。
+  /E         在一行的结尾配对模式。
+  /L         按字使用搜索字符串。
+  /R         将搜索字符串作为一般表达式使用。
+  /S         在当前目录和所有子目录中搜索匹配文件。
+  /I         指定搜索不分大小写。
+  /X         打印完全匹配的行。
+  /V         只打印不包含匹配的行。
+  /N         在匹配的每行前打印行数。
+  /M         如果文件含有匹配项，只打印其文件名。
+  /O         在每个匹配行前打印字符偏移量。
+  /P         忽略有不可打印字符的文件。  
+  /OFF[LINE] 不跳过带有脱机属性集的文件。
+  /A:attr    指定有十六进位数字的颜色属性。请见 "color /?"
+  /F:file    从指定文件读文件列表 (/ 代表控制台)。
+  /C:string  使用指定字符串作为文字搜索字符串。
+  /G:file    从指定的文件获得搜索字符串。 (/ 代表控制台)。
+  /D:dir     查找以分号为分隔符的目录列表
+  strings    要查找的文字。
+  [drive:][path]filename
+             指定要查找的文件。
+
+除非参数有 /C 前缀，请使用空格隔开搜索字符串。
+例如: 'FINDSTR "hello there" x.y' 在文件 x.y 中寻找 "hello" 或
+"there"。'FINDSTR /C:"hello there" x.y' 文件 x.y  寻找
+"hello there"。
+
+一般表达式的快速参考:
+  .        通配符: 任何字符
+  *        重复: 以前字符或类出现零或零以上次数
+  ^        行位置: 行的开始
+  $        行位置: 行的终点
+  [class]  字符类: 任何在字符集中的字符
+  [^class] 补字符类: 任何不在字符集中的字符
+  [x-y]    范围: 在指定范围内的任何字符
+  \x       Escape: 元字符 x 的文字用法
+  \<xyz    字位置: 字的开始
+  xyz\>    字位置: 字的结束
+
+有关 FINDSTR 常见表达法的详细情况，请见联机命令参考。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="FOR"><h2>FOR</h2><pre>
+对一组文件中的每一个文件执行某个特定命令。
+
+FOR %variable IN (set) DO command [command-parameters]
+
+  %variable  指定一个单一字母可替换的参数。
+  (set)      指定一个或一组文件。可以使用通配符。
+  command    指定对每个文件执行的命令。
+  command-parameters
+             为特定命令指定参数或命令行开关。
+
+在批处理程序中使用 FOR 命令时，指定变量请使用 %%variable 
+而不要用 %variable。变量名称是区分大小写的，所以 %i 不同于 %I.
+
+如果启用命令扩展，则会支持下列 FOR 命令的其他格式:
+
+FOR /D %variable IN (set) DO command [command-parameters]
+
+    如果集中包含通配符，则指定与目录名匹配，而不与文件名匹配。
+
+FOR /R [[drive:]path] %variable IN (set) DO command [command-parameters]
+
+    检查以 [drive:]path 为根的目录树，指向每个目录中的 FOR 语句。
+    如果在 /R 后没有指定目录规范，则使用当前目录。如果集仅为一个单点(.)字符，
+    则枚举该目录树。
+
+FOR /L %variable IN (start,step,end) DO command [command-parameters]
+
+    该集表示以增量形式从开始到结束的一个数字序列。因此，(1,1,5)将产生序列
+    1 2 3 4 5，(5,-1,1)将产生序列(5 4 3 2 1)
+
+FOR /F ["options"] %variable IN (file-set) DO command [command-parameters]
+FOR /F ["options"] %variable IN ("string") DO command [command-parameters]
+FOR /F ["options"] %variable IN ('command') DO command [command-parameters]
+
+    或者，如果有 usebackq 选项:
+
+FOR /F ["options"] %variable IN (file-set) DO command [command-parameters]
+FOR /F ["options"] %variable IN ("string") DO command [command-parameters]
+FOR /F ["options"] %variable IN ('command') DO command [command-parameters]
+
+    fileset 为一个或多个文件名。继续到 fileset 中的下一个文件之前，
+    每份文件都被打开、读取并经过处理。处理包括读取文件，将其分成一行行的文字，
+    然后将每行解析成零或更多的符号。然后用已找到的符号字符串变量值调用 For 循环。
+    以默认方式，/F 通过每个文件的每一行中分开的第一个空白符号。跳过空白行。
+    你可通过指定可选 "options" 参数替代默认解析操作。这个带引号的字符串包括一个
+    或多个指定不同解析选项的关键字。这些关键字为:
+
+        eol=c           - 指一个行注释字符的结尾(就一个)
+        skip=n          - 指在文件开始时忽略的行数。
+        delims=xxx      - 指分隔符集。这个替换了空格和制表符的
+                          默认分隔符集。
+        tokens=x,y,m-n  - 指每行的哪一个符号被传递到每个迭代
+                          的 for 本身。这会导致额外变量名称的分配。m-n
+                          格式为一个范围。通过 nth 符号指定 mth。如果
+                          符号字符串中的最后一个字符星号，
+                          那么额外的变量将在最后一个符号解析之后
+                          分配并接受行的保留文本。
+        usebackq        - 指定新语法已在下类情况中使用:
+                          在作为命令执行一个后引号的字符串并且一个单
+                          引号字符为文字字符串命令并允许在 file-set
+                          中使用双引号扩起文件名称。
+
+    某些范例可能有助:
+
+FOR /F "eol=; tokens=2,3* delims=, " %i in (myfile.txt) do @echo %i %j %k
+
+    会分析 myfile.txt 中的每一行，忽略以分号打头的那些行，将
+    每行中的第二个和第三个符号传递给 for 函数体，用逗号和/或
+    空格分隔符号。请注意，此 for 函数体的语句引用 %i 来
+    获得第二个符号，引用 %j 来获得第三个符号，引用 %k
+    来获得第三个符号后的所有剩余符号。对于带有空格的文件
+    名，你需要用双引号将文件名括起来。为了用这种方式来使
+    用双引号，还需要使用 usebackq 选项，否则，双引号会
+    被理解成是用作定义某个要分析的字符串的。
+
+    %i 在 for 语句中显式声明，%j 和 %k 是通过
+    tokens= 选项隐式声明的。可以通过 tokens= 一行
+    指定最多 26 个符号，只要不试图声明一个高于字母 "z" 或
+    "Z" 的变量。请记住，FOR 变量是单一字母、分大小写和全局的变量；
+    而且，不能同时使用超过 52 个。
+
+    还可以在相邻字符串上使用 FOR /F 分析逻辑，方法是，
+    用单引号将括号之间的 file-set 括起来。这样，该字符
+    串会被当作一个文件中的一个单一输入行进行解析。
+
+    最后，可以用 FOR /F 命令来分析命令的输出。方法是，将
+    括号之间的 file-set 变成一个反括字符串。该字符串会
+    被当作命令行，传递到一个子 CMD.EXE，其输出会被捕获到
+    内存中，并被当作文件分析。如以下例子所示:
+
+      FOR /F "usebackq delims==" %i IN (`set`) DO @echo %i
+
+    会枚举当前环境中的环境变量名称。
+
+另外，FOR 变量参照的替换已被增强。你现在可以使用下列
+选项语法:
+
+     %~I          - 删除任何引号(")，扩展 %I
+     %~fI        - 将 %I 扩展到一个完全合格的路径名
+     %~dI        - 仅将 %I 扩展到一个驱动器号
+     %~pI        - 仅将 %I 扩展到一个路径
+     %~nI        - 仅将 %I 扩展到一个文件名
+     %~xI        - 仅将 %I 扩展到一个文件扩展名
+     %~sI        - 扩展的路径只含有短名
+     %~aI        - 将 %I 扩展到文件的文件属性
+     %~tI        - 将 %I 扩展到文件的日期/时间
+     %~zI        - 将 %I 扩展到文件的大小
+     %~$PATH:I   - 查找列在路径环境变量的目录，并将 %I 扩展
+                   到找到的第一个完全合格的名称。如果环境变量名
+                   未被定义，或者没有找到文件，此组合键会扩展到
+                   空字符串
+
+可以组合修饰符来得到多重结果:
+
+     %~dpI       - 仅将 %I 扩展到一个驱动器号和路径
+     %~nxI       - 仅将 %I 扩展到一个文件名和扩展名
+     %~fsI       - 仅将 %I 扩展到一个带有短名的完整路径名
+     %~dp$PATH:I - 搜索列在路径环境变量的目录，并将 %I 扩展
+                   到找到的第一个驱动器号和路径。
+     %~ftzaI     - 将 %I 扩展到类似输出线路的 DIR
+
+在以上例子中，%I 和 PATH 可用其他有效数值代替。%~ 语法
+用一个有效的 FOR 变量名终止。选取类似 %I 的大写变量名
+比较易读，而且避免与不分大小写的组合键混淆。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="FORMAT"><h2>FORMAT</h2><pre>
+格式化磁盘以供 Windows 使用。
+
+FORMAT volume [/FS:file-system] [/V:label] [/Q] [/L[:state]] [/A:size] [/C] [/I:state] [/X] [/P:passes] [/S:state]
+FORMAT volume [/V:label] [/Q] [/F:size] [/P:passes]
+FORMAT volume [/V:label] [/Q] [/T:tracks /N:sectors] [/P:passes]
+FORMAT volume [/V:label] [/Q] [/P:passes]
+FORMAT volume [/Q]
+
+  volume          指定驱动器号(后面跟一个冒号)、
+                  装入点或卷名。
+  /FS:filesystem  指定文件系统类型(FAT、FAT32、exFAT、
+                  NTFS、UDF、ReFS)。
+  /V:label        指定卷标。
+  /Q              执行快速格式化。请注意，此开关可替代 /P。
+  /C              仅适于 NTFS: 默认情况下，将压缩在该新建卷上创建的
+                  文件。
+  /X              如果必要，请先强制卸除卷。该卷的所有打开句柄
+                  不再有效。
+  /R:revision     仅 UDF: 强制格式化为特定的 UDF 版本
+                  (1.02、1.50、2.00、2.01、2.50)。
+                  默认 修订版为 2.01。
+  /D              仅适用于 UDF 2.50: 将复制元数据。
+  /L[:state]      仅适用于 NTFS: 覆盖文件记录的默认大小。
+                  默认情况下，非分层卷将使用较小的
+                  文件记录格式化，分层卷将使用较大的
+                  文件记录格式化。/L 和 /L:enable 会强制使用较大的文件记录
+                  格式化，而 /L:disable 会强制使用较小的
+                  文件记录格式化。
+  /A:size         替代默认分配单元大小。强烈建议你在通常情况下使用
+                  默认配置。
+                  ReFS 支持 4096、64K。
+                  NTFS 支持 512、1024、2048、4096、8192、16K、32K、64K、
+                  128K、256K、512K、1M、2M。
+                  FAT 支持 512、1024、2048、4096、8192、16K、32K、64K，
+                  (128K、256K 用于大于 512 个字节的扇区)。
+                  FAT32 支持 512、1024、2048、4096、8192、16K、32K、64K，
+                  (128K、256K 用于大于 512 个字节的扇区)。
+                  exFAT 支持 512、1024、2048、4096、8192、16K、32K、64K、
+                  128K、256K、512K、1M、2M、4M、8M、16M、32M。
+
+                  请注意，FAT 和 FAT32 文件系统
+                  对卷上的群集数量施加以下限制:
+
+                  FAT: 群集数量 <= 65526
+                  FAT32: 65526 < 群集数量 < 4177918
+
+                  如果判定使用的指定群集大小无法
+                  满足以上需求，将立即
+                  停止格式化。
+
+                  大于 4096 的分配单元大小
+                  不支持 NTFS 压缩。
+
+  /F:size         指定要格式化的软盘大小(1.44)
+  /T:tracks       为磁盘指定每面磁道数。
+  /N:sectors      指定每条磁道的扇区数。
+  /P:count        将卷上每个扇区清零。此后，该卷将被改写 "count" 次，
+                  且每次使用不同的随机数。如果 "count" 为零，
+                  则每个扇区清零后，不再进行改写。
+                  如果已指定 /Q，则忽略此开关。
+  /S:state        指定对短文件名的支持(enable、disable)
+                  默认情况下禁用了短名称
+  /TXF:state      指定 txf 已启用/已禁用(值分别为 enabled 和 disabled)
+                   默认情况下，将启用 TxF
+  /I:state        仅 ReFS: 指定是否应在新卷上
+                  启用完整性。"state" 为 "enable" 或 "disable"
+                  默认情况下，在支持数据冗余的存储上
+                  启用完整性。
+  /DAX[:state]    仅适用于 NTFS: 对此卷启用直接访问存储(DAX)
+                  模式。在 DAX 模式下，可以通过内存总线
+                  访问卷，从而大幅提升 IO 性能。仅当硬件
+                  支持 DAX 时，才能使用 DAX 模式格式化卷。
+                  State 可指定为 "enable" 或 "disable"。/可将 DAX 视
+                  为 /DAX:enable。
+  /LogSize[:size] 仅适用于 NTFS: 以千字节为单位指定 NTFS 日志文件的大小。
+                  最小支持大小为 2MB，因此即使指定的大小
+                  小于 2MB，也将产生 2MB 的日志文件。零表示
+                  通常取决于卷大小的默认值。
+  /NoRepairLogs   仅适用于 NTFS: 禁用 NTFS 修复日志。如果设置此标志
+                  spotfix (即 chkdsk /spotfix)将不起作用。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="FSUTIL"><h2>FSUTIL</h2><pre>
+/? 是无效参数。
+---- 支持的命令 ----
+
+8dot3name         8dot3name 管理
+behavior          控制文件系统行为
+dax               Dax 卷管理
+dirty             管理卷更改位
+file              文件特定命令
+fsInfo            文件系统信息
+hardlink          硬链接管理
+objectID          对象 ID 管理
+quota             配额管理
+repair            自愈管理
+reparsePoint      重分析点管理
+storageReserve    存储保留管理
+resource          事务性资源管理器管理
+sparse            稀疏文件控制
+tiering           存储分层属性管理
+transaction       事务管理
+usn               USN 管理
+volume            卷管理
+wim               透明 wim 托管管理
+</pre><a href="#top">返回页首</a><br><br>
+<a name="FTYPE"><h2>FTYPE</h2><pre>
+显示或修改用在文件扩展名关联中的文件类型
+
+FTYPE [fileType[=[openCommandString]]]
+
+  fileType  指定要检查或改变的文件类型
+  openCommandString 指定调用这类文件时要使用的开放式命令。
+
+键入 FTYPE 而不带参数来显示当前有定义的开放式命令字符串的
+文件类型。FTYPE 仅用一个文件类型启用时，它显示那个文件类
+型目前的开放式命令字符串。如果不为开放式命令字符串指定，
+FTYPE 命令将删除那个文件类型的开放式命令字符串。在一个
+开放式命令字符串之内，命令字符串 %0 或 %1 被通过关联调用
+的文件名所代替。%* 得到所有的参数，%2 得到第一个参数，
+%3 得到第二个，等等。%~n 得到其余所有以 nth 参数打头的
+参数；n 可以是从 2 到 9 的数字。例如:
+
+    ASSOC .pl=PerlScript
+    FTYPE PerlScript=perl.exe %1 %*
+
+允许你启用以下 Perl 脚本:
+
+    script.pl 1 2 3
+
+如果不想键入扩展名，则键入以下字符串:
+
+    set PATHEXT=.pl;%PATHEXT%
+
+被启动的脚本如下:
+
+    script 1 2 3
+</pre><a href="#top">返回页首</a><br><br>
+<a name="GOTO"><h2>GOTO</h2><pre>
+将 cmd.exe 定向到批处理程序中带标签的行。
+
+GOTO label
+
+  label   指定批处理程序中用作标签的文字字符串。
+
+标签必须单独一行，并且以冒号打头。
+
+如果命令扩展被启用，GOTO 会如下改变:
+
+GOTO 命令现在接受目标标签 :EOF，这个标签将控制转移到当前
+批脚本文件的结尾。不定义就退出批脚本文件，这是一个容易的
+办法。有关能使该功能有用的 CALL 命令的扩展描述，请键入
+CALL /?。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="GPRESULT"><h2>GPRESULT</h2><pre>
+GPRESULT [/S system [/U username [/P [password]]]] [/SCOPE scope]  
+           [/USER targetusername] [/R | /V | /Z] [(/X | /H) &lt;filename&gt; [/F]]  
+描述:  
+    此命令行工具显示目标用户和计算机的策略结果集 (RSoP) 的信息。  
+参数列表:  
+    /S        system           指定要连接到的远程系统。  
+    /U        [domain\]user    指定命令应在其下执行的  
+ECHO 处于关闭状态。
+                               无法与 /X、/H 一起使用。  
+    /P        [password]       为给定的用户上下文指定密码。如果省  
+                               略则提示输入。  
+                               无法与 /X、/H 一起使用。  
+    /SCOPE    scope           指定是显示用户还是计算机设置。  
+ECHO 处于关闭状态。
+                               有效值: "USER"，"COMPUTER"。  
+    /USER     [domain\]user    指定要显示 RSOP 的用户名。  
+                               将显示 RSoP 数据。  
+    /X        &lt;filename&gt;       以 XML 格式将报告保存该位置，  
+                               并使用由  
+                               &lt;filename&gt; 参数指定的文件名。(在 Windows  
+                               Vista SP1 和更高版本以及 Windows Server 2008 和更高版本中有效)  
+    /H        &lt;filename&gt;       以 HTML 格式将报告保存该位置，  
+                               并使用由  
+                               &lt;filename&gt; 参数指定的文件名。(在 Windows  
+                               Vista SP1 和更高版本以及 Windows Server 2008 和更高版本中有效)  
+    /F                         强制 Gpresult  覆盖在  
+                               /X 或 /H 命令中指定的文件名。  
+    /R                         显示 RSoP 摘要数据。  
+    /V                         指定要显示详细信息。详细信息提供  
+                               已经应用的、优先权是 1 的详细设置。  
+    /Z                         指定显示超详细信息。超详细信息提供其他  
+                               详细设置，用 1 或更高的优先权应用于此  
+                               设置。这允许你查看是否在多处设置了某一  
+                               设置。请参阅组策略联机帮助主题获得更多  
+                               信息。  
+显示消息，或者启用或关闭命令回显。
+
+  ECHO [ON | OFF]
+  ECHO [message]
+
+若要显示当前回显设置，请键入不带参数的 ECHO。
+示例:  
+    GPRESULT /R  
+    GPRESULT /H GPReport.html  
+    GPRESULT /USER targetusername /V  
+    GPRESULT /S system /USER targetusername /SCOPE COMPUTER /Z  
+    GPRESULT /S system /U username /P password /SCOPE USER /V  
+</pre><a href="#top">返回页首</a><br><br>
+<a name="GRAFTABL"><h2>GRAFTABL</h2><pre>
+</pre><a href="#top">返回页首</a><br><br>
+<a name="HELP"><h2>HELP</h2><pre>
+提供 Windows 命令的帮助信息。
+
+HELP [command]
+
+    command - 显示该命令的帮助信息。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="ICACLS"><h2>ICACLS</h2><pre>
+
+ICACLS name /save aclfile [/T] [/C] [/L] [/Q]
+    将匹配名称的文件和文件夹的 DACL 存储到 aclfile 中
+    以便将来与 /restore 一起使用。请注意，未保存 SACL、
+    所有者或完整性标签。
+
+ICACLS directory [/substitute SidOld SidNew [...]] /restore aclfile
+                 [/C] [/L] [/Q]
+    将存储的 DACL 应用于目录中的文件。
+
+ICACLS name /setowner user [/T] [/C] [/L] [/Q]
+    更改所有匹配名称的所有者。该选项不会强制更改所有
+    身份；使用 takeown.exe 实用程序可实现
+    该目的。
+
+ICACLS name /findsid Sid [/T] [/C] [/L] [/Q]
+    查找包含显式提及 SID 的 ACL 的
+    所有匹配名称。
+
+ICACLS name /verify [/T] [/C] [/L] [/Q]
+    查找其 ACL 不规范或长度与 ACE
+    计数不一致的所有文件。
+
+ICACLS name /reset [/T] [/C] [/L] [/Q]
+    为所有匹配文件使用默认继承的 ACL 替换 ACL。
+
+ICACLS name [/grant[:r] Sid:perm[...]]
+       [/deny Sid:perm [...]]
+       [/remove[:g|:d]] Sid[...]] [/T] [/C] [/L] [/Q]
+       [/setintegritylevel Level:policy[...]]
+
+    /grant[:r] Sid:perm 授予指定的用户访问权限。如果使用 :r，
+        这些权限将替换以前授予的所有显式权限。
+        如果不使用 :r，这些权限将添加到以前授予的
+        所有显式权限。
+
+    /deny Sid:perm 显式拒绝指定的用户访问权限。
+        将为列出的权限添加显式拒绝 ACE，
+        并删除所有显式授予的权限中的相同权限。
+
+    /remove[:[g|d]] Sid 删除 ACL 中所有出现的 SID。使用
+        :g，将删除授予该 SID 的所有权限。使用
+        :d，将删除拒绝该 SID 的所有权限。
+
+    /setintegritylevel [(CI)(OI)]级别将完整性 ACE 显式
+        添加到所有匹配文件。要指定的级别为以下级别
+        之一:
+             L[ow]
+             M[edium]
+             H[igh]
+        完整性 ACE 的继承选项可以优先于级别，但只应用于
+        目录。
+
+    /inheritance:e|d|r
+        e - 启用继承
+        d - 禁用继承并复制 ACE
+        r - 删除所有继承的 ACE
+
+
+注意:
+    Sid 可以采用数字格式或友好的名称格式。如果给定数字格式，
+    那么请在 SID 的开头添加一个 *。
+
+    /T 指示在以该名称指定的目录下的所有匹配文件/目录上
+        执行此操作。
+
+    /C 指示此操作将在所有文件错误上继续进行。
+        仍将显示错误消息。
+
+    /L 指示此操作在符号
+      链接本身而不是其目标上执行。
+
+    /Q 指示 icacls 应该禁止显示成功消息。
+
+    ICACLS 保留 ACE 项的规范顺序:
+            显式拒绝
+            显式授予
+            继承的拒绝
+            继承的授予
+
+    perm 是权限掩码，可以指定两种格式之一:
+        简单权限序列:
+                N - 无访问权限
+                F - 完全访问权限
+                M - 修改权限
+                RX - 读取和执行权限
+                R - 只读权限
+                W - 只写权限
+                D - 删除权限
+        在括号中以逗号分隔的特定权限列表:
+                DE - 删除
+                RC - 读取控制
+                WDAC - 写入 DAC
+                WO - 写入所有者
+                S - 同步
+                AS - 访问系统安全性
+                MA - 允许的最大值
+                GR - 一般性读取
+                GW - 一般性写入
+                GE - 一般性执行
+                GA - 全为一般性
+                RD - 读取数据/列出目录
+                WD - 写入数据/添加文件
+                AD - 附加数据/添加子目录
+                REA - 读取扩展属性
+                WEA - 写入扩展属性
+                X - 执行/遍历
+                DC - 删除子项
+                RA - 读取属性
+                WA - 写入属性
+        继承权限可以优先于每种格式，但只应用于
+        目录:
+                (OI) - 对象继承
+                (CI) - 容器继承
+                (IO) - 仅继承
+                (NP) - 不传播继承
+                (I) - 从父容器继承的权限
+
+示例:
+
+        icacls c:\windows\* /save AclFile /T
+        - 将 c:\windows 及其子目录下所有文件的
+          ACL 保存到 AclFile。
+
+        icacls c:\windows\ /restore AclFile
+        - 将还原 c:\windows 及其子目录下存在的 AclFile 内
+          所有文件的 ACL。
+
+        icacls file /grant Administrator:(D,WDAC)
+        - 将授予用户对文件删除和写入 DAC 的管理员
+          权限。
+
+        icacls file /grant *S-1-1-0:(D,WDAC)
+        - 将授予由 sid S-1-1-0 定义的用户对文件删除和
+          写入 DAC 的权限。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="IF"><h2>IF</h2><pre>
+执行批处理程序中的条件处理。
+
+IF [NOT] ERRORLEVEL number command
+IF [NOT] string1==string2 command
+IF [NOT] EXIST filename command
+
+  NOT               指定只有条件为 false 的情况下，Windows 才
+                    应该执行该命令。
+
+  ERRORLEVEL number 如果最后运行的程序返回一个等于或大于
+                    指定数字的退出代码，指定条件为 true。
+
+  string1==string2  如果指定的文字字符串匹配，指定条件为 true。
+
+  EXIST filename    如果指定的文件名存在，指定条件为 true。
+
+  command           如果符合条件，指定要执行的命令。如果指定的
+                    条件为 FALSE，命令后可跟 ELSE 命令，该命令将 
+                    在 ELSE 关键字之后执行该命令。
+
+ELSE 子句必须出现在同一行上的 IF 之后。例如:
+
+    IF EXIST filename. (
+        del filename.
+    ) ELSE (
+        echo filename. missing.
+    )
+
+由于 del 命令需要用新的一行终止，因此以下子句不会有效:
+
+IF EXIST filename. del filename. ELSE echo filename. missing
+
+由于 ELSE 命令必须与 IF 命令的尾端在同一行上，以下子句也
+不会有效:
+
+    IF EXIST filename. del filename.
+    ELSE echo filename. missing
+
+如果都放在同一行上，以下子句有效:
+
+    IF EXIST filename. (del filename.) ELSE echo filename. missing
+
+如果命令扩展被启用，IF 会如下改变:
+
+    IF [/I] string1 compare-op string2 command
+    IF CMDEXTVERSION number command
+    IF DEFINED variable command
+
+其中， compare-op 可以是:
+
+    EQU - 等于
+    NEQ - 不等于
+    LSS - 小于
+    LEQ - 小于或等于
+    GTR - 大于
+    GEQ - 大于或等于
+
+而 /I 开关(如果指定)说明要进行的字符串比较不分大小写。
+/I 开关可以用于 IF 的 string1==string2 的形式上。这些
+比较都是通用的；原因是，如果 string1 和 string2 都是
+由数字组成的，字符串会被转换成数字，进行数字比较。
+
+CMDEXTVERSION 条件的作用跟 ERRORLEVEL 的一样，除了它
+是在跟与命令扩展有关联的内部版本号比较。第一个版本
+是 1。每次对命令扩展有相当大的增强时，版本号会增加一个。
+命令扩展被停用时，CMDEXTVERSION 条件不是真的。
+
+如果已定义环境变量，DEFINED 条件的作用跟 EXIST 的一样，
+除了它取得一个环境变量，返回的结果是 true。
+
+如果没有名为 ERRORLEVEL 的环境变量，%ERRORLEVEL%
+会扩充为 ERROLEVEL 当前数值的字符串表达式；否则，你会得到
+其数值。运行程序后，以下语句说明 ERRORLEVEL 的用法:
+
+    goto answer%ERRORLEVEL%
+    :answer0
+    echo Program had return code 0
+    :answer1
+    echo Program had return code 1
+
+你也可以使用以上的数字比较:
+
+    IF %ERRORLEVEL% LEQ 1 goto okay
+
+如果没有名为 CMDCMDLINE 的环境变量，%CMDCMDLINE%
+将在 CMD.EXE 进行任何处理前扩充为传递给 CMD.EXE 的原始
+命令行；否则，你会得到其数值。
+
+如果没有名为 CMDEXTVERSION 的环境变量，
+%CMDEXTVERSION% 会扩充为 CMDEXTVERSION 当前数值的
+字串符表达式；否则，你会得到其数值。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="LABEL"><h2>LABEL</h2><pre>
+创建、更改或删除磁盘的卷标。
+
+LABEL [drive:][label]
+LABEL [/MP] [volume] [label]
+
+  drive:          指定驱动器号。
+  label           指定卷标。
+  /MP             指定卷应被视为装入点或卷名。
+  volume          指定驱动器号(后面跟一个冒号)、装入点或卷名。
+                  如果指定了卷名，/MP 标志则不必要。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="MD"><h2>MD</h2><pre>
+创建目录。
+
+MKDIR [drive:]path
+MD [drive:]path
+
+如果命令扩展被启用，MKDIR 会如下改变:
+
+如果需要，MKDIR 会在路径中创建中级目录。例如: 假设 \a 不
+存在，那么:
+
+    mkdir \a\b\c\d
+
+与:
+
+    mkdir \a
+    chdir \a
+    mkdir b
+    chdir b
+    mkdir c
+    chdir c
+    mkdir d
+
+相同。如果扩展被停用，则需要键入 mkdir \a\b\c\d。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="MKDIR"><h2>MKDIR</h2><pre>
+创建目录。
+
+MKDIR [drive:]path
+MD [drive:]path
+
+如果命令扩展被启用，MKDIR 会如下改变:
+
+如果需要，MKDIR 会在路径中创建中级目录。例如: 假设 \a 不
+存在，那么:
+
+    mkdir \a\b\c\d
+
+与:
+
+    mkdir \a
+    chdir \a
+    mkdir b
+    chdir b
+    mkdir c
+    chdir c
+    mkdir d
+
+相同。如果扩展被停用，则需要键入 mkdir \a\b\c\d。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="MKLINK"><h2>MKLINK</h2><pre>
+创建符号链接。
+
+MKLINK [[/D] | [/H] | [/J]] Link Target
+
+        /D      创建目录符号链接。默认为文件
+                符号链接。
+        /H      创建硬链接而非符号链接。
+        /J      创建目录联接。
+        Link    指定新的符号链接名称。
+        Target  指定新链接引用的路径
+                (相对或绝对)。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="MODE"><h2>MODE</h2><pre>
+配置系统设备。
+
+串行端口:          MODE COMm[:] [BAUD=b] [PARITY=p] [DATA=d] [STOP=s]
+                                [to=on|off] [xon=on|off] [odsr=on|off]
+                                [octs=on|off] [dtr=on|off|hs]
+                                [rts=on|off|hs|tg] [idsr=on|off]
+
+设备状态:          MODE [device] [/STATUS]
+
+打印重定向:        MODE LPTn[:]=COMm[:]
+
+选择代码页:        MODE CON[:] CP SELECT=yyy
+
+代码页状态:        MODE CON[:] CP [/STATUS]
+
+显示模式:          MODE CON[:] [COLS=c] [LINES=n]
+
+击键率:            MODE CON[:] [RATE=r DELAY=d]
+</pre><a href="#top">返回页首</a><br><br>
+<a name="MORE"><h2>MORE</h2><pre>
+逐屏显示输出。  
+MORE [/E [/C] [/P] [/S] [/Tn] [+n]] &lt; [drive:][path]filename  
+command-name | MORE [/E [/C] [/P] [/S] [/Tn] [+n]]  
+MORE /E [/C] [/P] [/S] [/Tn] [+n] [files]  
+    [drive:][path]filename  指定要逐屏显示的文件。  
+    command-name            指定要显示其输出的命令。  
+    /E      启用扩展功能  
+    /C      显示页面前先清除屏幕  
+    /P      扩展 FormFeed 字符  
+    /S      将多个空白行缩成一行  
+    /Tn     将制表符扩展为 n 个空格(默认值为 8)  
+            开关可以出现在 MORE 环境变量中。  
+    +n      从第 n 行开始显示第一个文件  
+    files   要显示的文件列表。使用空格分隔列表中的文件。  
+            如果已启用扩展功能，则在 -- More -- 提示处 接受下列命令:  
+    P n 显示下 n 行  
+    S n 跳过下 n 行  
+    F 显示下个文件  
+    Q 退出  
+    = 显示行号  
+    ? 显示帮助行  
+    &lt;space&gt; 显示下一页  
+    &lt;ret&gt; 显示下一行  
+</pre><a href="#top">返回页首</a><br><br>
+<a name="MOVE"><h2>MOVE</h2><pre>
+移动文件并重命名文件和目录。
+
+要移动至少一个文件:
+MOVE [/Y | /-Y] [drive:][path]filename1[,...] destination
+
+要重命名一个目录:
+MOVE [/Y | /-Y] [drive:][path]dirname1 dirname2
+
+  [drive:][path]filename1 指定你想移动的文件位置和名称。
+  destination             指定文件的新位置。目标可包含一个驱动器号
+                          和冒号、一个目录名或组合。如果只移动一个文件
+                          并在移动时将其重命名，你还可以包括文件名。
+  [drive:][path]dirname1  指定要重命名的目录。
+  dirname2                指定目录的新名称。
+
+  /Y                      取消确认覆盖一个现有目标文件的提示。
+  /-Y                     对确认覆盖一个现有目标文件发出提示。
+
+命令行开关 /Y 可以出现在 COPYCMD 环境变量中。这可以用命令行上
+的 /-Y 替代。默认值是，除非 MOVE 命令是从一个批脚本内
+执行的，覆盖时都发出提示。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="OPENFILES"><h2>OPENFILES</h2><pre>
+
+OPENFILES /parameter [arguments]
+
+描述:
+    允许管理员列出系统上已打开的文件和文件夹或与其断开连接。
+
+参数列表:
+    /Disconnect      中断至少一个打开的文件的连接。
+
+    /Query           显示所有从本地或从共享文件夹打开的文件。
+
+    /Local           启用 / 禁用本地打开文件的显示。
+
+    /?               显示此帮助消息。
+
+示例:
+    OPENFILES /Disconnect /?
+    OPENFILES /Query /?
+    OPENFILES /Local /?
+</pre><a href="#top">返回页首</a><br><br>
+<a name="PATH"><h2>PATH</h2><pre>
+为可执行文件显示或设置一个搜索路径。
+
+PATH [[drive:]path[;...][;%PATH%]
+PATH ;
+
+键入 PATH ; 清除所有搜索路径设置并指示 cmd.exe 只在当前
+目录中搜索。
+键入 PATH 但不加参数，显示当前路径。
+将 %PATH% 包括在新的路径设置中会将旧路径附加到新设置。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="PAUSE"><h2>PAUSE</h2><pre>
+暂停批处理程序，并显示以下消息:
+    请按任意键继续. . . </pre><a href="#top">返回页首</a><br><br>
+<a name="POPD"><h2>POPD</h2><pre>
+更改到 PUSHD 命令存储的目录。
+
+POPD
+
+
+如果命令扩展被启用，从推目录堆栈 POPD 驱动器时，POPD
+命令会删除 PUSHD 创建的临时驱动器号。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="PRINT"><h2>PRINT</h2><pre>
+打印文本文件。
+
+PRINT [/D:device] [[drive:][path]filename[...]]
+
+   /D:device   指定打印设备。
+
+</pre><a href="#top">返回页首</a><br><br>
+<a name="PROMPT"><h2>PROMPT</h2><pre>
+更改 cmd.exe 命令提示符。
+
+PROMPT [text]
+
+  text    指定新的命令提示符。
+
+提示符可以由普通字符及下列特殊代码组成:
+
+  $A   & (与号)
+  $B   | (坚线)
+  $C   ( (左括号)
+  $D   当前日期
+  $E   转义码(ASCII 码 27)
+  $F   ) (右括号)
+  $G   > (大于号)
+  $H   Backspace (删除前一个字符)
+  $L   < (小于号)
+  $N   当前驱动器
+  $P   当前驱动器及路径
+  $Q   = (等号)
+  $S     (空格)
+  $T   当前时间
+  $V   Windows 版本号
+  $_   回车换行符
+  $$   $ (美元符号)
+
+如果命令扩展被启用，PROMPT 命令会支持下列格式化字符:
+
+  $+   根据 PUSHD 目录堆栈的深度，零个或零个以上加号(+)字符，
+       一个推的层一个字符。
+
+  $M   如果当前驱动器不是网络驱动器，显示跟当前驱动器号或
+       空字符串有关联的远程名。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="PUSHD"><h2>PUSHD</h2><pre>
+保存当前目录以供 POPD 命令使用，然后改到指定的目录。
+
+PUSHD [path | ..]
+
+  path        指定要成为当前目录的目录。
+
+如果命令扩展被启用，除了一般驱动器号和路径，PUSHD 
+命令还接受网络路径。如果指定了网络路径，PUSHD 将创建一个
+指向指定网络资源的临时驱动器号，然后再用刚定义的驱动器
+号更改当前的驱动器和目录。可以从 Z: 往下分配临时驱动器
+号，使用找到的第一个没有用过的驱动器号。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="RD"><h2>RD</h2><pre>
+删除一个目录。
+
+RMDIR [/S] [/Q] [drive:]path
+RD [/S] [/Q] [drive:]path
+
+    /S      除目录本身外，还将删除指定目录下的所有子目录和
+            文件。用于删除目录树。
+
+    /Q      安静模式，带 /S 删除目录树时不要求确认
+</pre><a href="#top">返回页首</a><br><br>
+<a name="RECOVER"><h2>RECOVER</h2><pre>
+从损坏的磁盘中恢复可读取的信息。
+
+RECOVER [drive:][path]filename
+在使用 RECOVER 命令之前，
+请先参阅 Windows 帮助中的联机命令参考。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="REM"><h2>REM</h2><pre>
+在批处理文件或 CONFIG.SYS 里加上注解或说明。
+
+REM [comment]
+</pre><a href="#top">返回页首</a><br><br>
+<a name="REN"><h2>REN</h2><pre>
+重命名文件。
+
+RENAME [drive:][path]filename1 filename2.
+REN [drive:][path]filename1 filename2.
+
+请注意，你不能为目标文件指定新的驱动器或路径。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="RENAME"><h2>RENAME</h2><pre>
+重命名文件。
+
+RENAME [drive:][path]filename1 filename2.
+REN [drive:][path]filename1 filename2.
+
+请注意，你不能为目标文件指定新的驱动器或路径。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="REPLACE"><h2>REPLACE</h2><pre>
+替换文件。
+
+REPLACE [drive1:][path1]filename [drive2:][path2] [/A] [/P] [/R] [/W]
+REPLACE [drive1:][path1]filename [drive2:][path2] [/P] [/R] [/S] [/W] [/U]
+
+  [drive1:][path1]filename 指定源文件。
+  [drive2:][path2]         指定要替换文件的目录。
+  /A                       把新文件加入目标目录。不能和/S 或 /U 命令行开关搭配使用。
+  /P                       替换文件或加入源文件之前会先提示你进行确认。
+  /R                       替换只读文件以及未受保护的文件。
+  /S                       替换目标目录中所有子目录的文件。不能与 /A 命令开关搭配使用。
+  /W                       等你插入磁盘以后再运行。
+  /U                       只会替换或更新比源文件日期早的文件。不能与 /A 命令行开关搭配使用。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="RMDIR"><h2>RMDIR</h2><pre>
+删除一个目录。
+
+RMDIR [/S] [/Q] [drive:]path
+RD [/S] [/Q] [drive:]path
+
+    /S      除目录本身外，还将删除指定目录下的所有子目录和
+            文件。用于删除目录树。
+
+    /Q      安静模式，带 /S 删除目录树时不要求确认
+</pre><a href="#top">返回页首</a><br><br>
+<a name="ROBOCOPY"><h2>ROBOCOPY</h2><pre>
+
+-------------------------------------------------------------------------------
+   ROBOCOPY     ::     Windows 的可靠文件复制                              
+-------------------------------------------------------------------------------
+
+  开始时间: 2021年2月23日 20:24:37
+               用法 :: ROBOCOPY source destination [file [file]...] [options]
+
+                 源 :: 源目录(驱动器:\路径或\\服务器\共享\路径)。
+               目标 :: 目标目录(驱动器:\路径或\\服务器\共享\路径)。
+               文件 :: 要复制的文件(名称/通配符: 默认为 "*.*")。
+
+::
+:: 复制选项:
+::
+                 /S :: 复制子目录，但不复制空的子目录。
+                 /E :: 复制子目录，包括空的子目录。
+             /LEV:n :: 仅复制源目录树的前 n 层。
+
+                 /Z :: 在可重新启动模式下复制文件。
+                 /B :: 在备份模式下复制文件。
+                /ZB :: 使用可重新启动模式；如果拒绝访问，请使用备份模式。
+                 /J :: 复制时使用未缓冲的 I/O (推荐在复制大文件时使用)。
+            /EFSRAW :: 在 EFS RAW 模式下复制所有加密的文件。
+
+      /COPY:复制标记:: 要复制的文件内容(默认为 /COPY:DAT)。
+                       (copyflag: D=数据，A=属性，T=时间戳，X=跳过替换数据流)。
+                       (S=安全=NTFS ACL，O=所有者信息，U=审核信息)。
+
+ 
+               /SEC :: 复制具有安全性的文件(等同于 /COPY:DATS)。
+           /COPYALL :: 复制所有文件信息(等同于 /COPY:DATSOU)。
+            /NOCOPY :: 不复制任何文件信息(与 /PURGE 一起使用)。
+            /SECFIX :: 修复所有文件的文件安全性，即使是跳过的文件。
+            /TIMFIX :: 修复所有文件的文件时间，即使是跳过的文件。
+
+             /PURGE :: 删除源中不再存在的目标文件/目录。
+               /MIR :: 镜像目录树(等同于 /E 加 /PURGE)。
+
+               /MOV :: 移动文件(复制后从源中删除)。
+              /MOVE :: 移动文件和目录(复制后从源中删除)。
+
+     /A+:[RASHCNET] :: 将给定的属性添加到复制的文件。
+     /A-:[RASHCNET] :: 从复制的文件中删除给定的属性。
+
+            /CREATE :: 仅创建目录树和长度为零的文件。
+               /FAT :: 仅使用 8.3 FAT 文件名创建目标文件。
+               /256 :: 关闭超长路径(> 256 个字符)支持。
+
+             /MON:n :: 监视源；发现多于 n 个更改时再次运行。
+             /MOT:m :: 监视源；如果更改，在 m 分钟时间后再次运行。
+
+      /RH:hhmm-hhmm :: 可以启动新的复制时运行的小时数 - 时间。
+                /PF :: 基于每个文件(而不是每个步骤)来检查运行小时数。
+
+             /IPG:n :: 程序包间的间距(ms)，以释放低速线路上的带宽。
+
+                /SJ:: 将接合复制为接合而非接合目标。
+                /SL:: 将符号链接复制为链接而非链接目标。
+
+            /MT[:n] :: 使用 n 个线程进行多线程复制(默认值为 8)。
+                       n 必须至少为 1，但不得大于 128。
+                       该选项与 /IPG 和 /EFSRAW 选项不兼容。
+                       使用 /LOG 选项重定向输出以便获得最佳性能。
+
+ /DCOPY:复制标记:: 要复制的目录内容(默认为 /DCOPY:DA)。
+                       (copyflag: D=数据，A=属性，T=时间戳，E=EA，X=跳过替换数据流)。 
+
+           /NODCOPY :: 不复制任何目录信息(默认情况下，执行 /DCOPY:DA)。
+
+         /NOOFFLOAD :: 在不使用 Windows 复制卸载机制的情况下复制文件。
+
+          /COMPRESS :: 在文件传输期间请求网络压缩(如果适用)。
+
+::
+:: 文件选择选项:
+::
+                 /A :: 仅复制具有存档属性集的文件。
+                 /M :: 仅复制具有存档属性的文件并重置存档属性。
+    /IA:[RASHCNETO] :: 仅包含具有任意给定属性集的文件。
+    /XA:[RASHCNETO] :: 排除具有任意给定属性集的文件。
+
+  /XF 文件[文件]... :: 排除与给定名称/路径/通配符匹配的文件。
+  /XD 目录[目录]... :: 排除与给定名称/路径匹配的目录。
+
+                /XC :: 排除已更改的文件。
+                /XN :: 排除较新的文件。
+                /XO :: 排除较旧的文件。
+                /XX :: 排除多余的文件和目录。
+                /XL :: 排除孤立的文件和目录。
+                /IS :: 包含相同文件。
+                /IT :: 包含已调整的文件。
+
+             /MAX:n :: 最大的文件大小 - 排除大于 n 字节的文件。
+             /MIN:n :: 最小的文件大小 - 排除小于 n 字节的文件。
+
+          /MAXAGE:n :: 最长的文件存在时间 - 排除早于 n 天/日期的文件。
+          /MINAGE:n :: 最短的文件存在时间 - 排除晚于 n 天/日期的文件。
+          /MAXLAD:n :: 最大的最后访问日期 - 排除自 n 以来未使用的文件。
+          /MINLAD:n :: 最小的最后访问日期 - 排除自 n 以来使用的文件。
+                       (If n < 1900 then n = n days, else n = YYYYMMDD date)。
+
+               /FFT :: 假设 FAT 文件时间(2 秒粒度)。
+               /DST :: 弥补 1 小时的 DST 时间差。
+
+                /XJ:: 排除(文件和目录的)符号链接和接合点。
+               /XJD:: 排除目录和接合点的符号链接。
+               /XJF :: 排除文件的符号链接。
+
+                /IM :: 包含已修改的文件(更改时间不同)。
+::
+:: 重试选项:
+::
+               /R:n :: 失败副本的重试次数: 默认为 1 百万。
+               /W:n :: 两次重试间的等待时间: 默认为 30 秒。
+
+               /REG :: 将注册表中的 /R:n 和 /W:n 保存为默认设置。
+
+               /TBD :: 等待定义共享名称(重试错误 67)。
+
+               /LFSM :: 在低可用空间模式下运行，启用复制暂停和继续(参见“备注”)。
+
+               /LFSM:n[KMG] :: /LFSM，指定下限大小(以 n [K:kilo、M:mega、G:giga] 字节为单位)。
+
+::
+:: 日志记录选项:
+::
+                 /L :: 仅列出 - 不复制、添加时间戳或删除任何文件。
+                 /X :: 报告所有多余的文件，而不只是选中的文件。
+                 /V :: 生成详细输出，同时显示跳过的文件。
+                /TS :: 在输出中包含源文件的时间戳。
+                /FP :: 在输出中包含文件的完整路径名称。
+             /BYTES :: 以字节打印大小。
+
+                /NS :: 无大小 - 不记录文件大小。
+                /NC :: 无类别 - 不记录文件类别。
+               /NFL :: 无文件列表 - 不记录文件名。
+               /NDL :: 无目录列表 - 不记录目录名称。
+
+                /NP :: 无进度 - 不显示已复制的百分比。
+               /ETA :: 显示复制文件的预期到达时间。
+
+          /LOG:文件 :: 将状态输出到日志文件(覆盖现有日志)。
+         /LOG+:文件 :: 将状态输出到日志文件(附加到现有日志中)。
+
+       /UNILOG:文件 :: 以 UNICODE 方式将状态输出到日志文件(覆盖现有日志)。
+      /UNILOG+:文件 :: 以 UNICODE 方式将状态输出到日志文件(附加到现有日志中)。
+
+               /TEE :: 输出到控制台窗口和日志文件。
+
+               /NJH :: 没有作业标头。
+               /NJS :: 没有作业摘要。
+
+           /UNICODE :: 以 UNICODE 方式输出状态。
+
+::
+:: 作业选项 :
+::
+      /JOB:作业名称 :: 从命名的作业文件中提取参数。
+     /SAVE:作业名称 :: 将参数保存到命名的作业文件
+              /QUIT :: 处理命令行后退出(以查看参数)。 
+              /NOSD :: 未指定源目录。
+              /NODD :: 未指定目标目录。
+                /IF :: 包含以下文件。
+
+::
+:: 备注:
+::
+       以前在卷的根目录上使用 /PURGE 或 /MIR 导致 
+       robocopy 也对“系统卷信息”目录内的 
+       文件应用所请求的操作。现在不再是这种情形；如果 
+       指定了任何一项，则 robocopy 将跳过
+       复制会话简要源目录和目标目录中具有该名称的任何文件或目录。
+
+       已修改的文件分类仅在源
+       和目标文件系统支持更改时间戳(例如 NTFS)
+       以及源和目标文件具有不同的更改时间(否则相同)
+       时才适用。默认情况下不复制这些文件；指定 /IM
+       以包含它们。
+
+       /DCOPY:E 标志请求扩展属性复制应该
+       针对目录进行尝试。请注意，如果目录的 EA 无法复制，
+       则当前 robocopy 将继续。/COPYALL 中也未包括
+       在 /COPYALL 中。
+
+       使用 /LFSM 请求 robocopy 在“低可用空间模式”下运行。
+       在该模式下，每当文件副本导致 
+       目标卷的可用空间低于可以 
+       由 LFSM:n[KMG] 形式的标志明确指定的“下限”值时，robocopy 将会暂停。
+       如果指定了 /LFSM，但没有显式下限值，则会将下限设置为 
+       目标卷大小的 10%。
+       低可用空间模式与 /MT、/EFSRAW、/B 和/ZB 不兼容。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="SET"><h2>SET</h2><pre>
+显示、设置或删除 cmd.exe 环境变量。  
+SET [variable=[string]]  
+  variable  指定环境变量名。  
+  string    指定要指派给变量的一系列字符串。  
+要显示当前环境变量，键入不带参数的 SET。  
+如果命令扩展被启用，SET 会如下改变:  
+可仅用一个变量激活 SET 命令，等号或值不显示所有前缀匹配  
+SET 命令已使用的名称的所有变量的值。例如:  
+    SET P  
+会显示所有以字母 P 打头的变量  
+如果在当前环境中找不到该变量名称，SET 命令将把 ERRORLEVEL  
+设置成 1。  
+SET 命令不允许变量名含有等号。  
+在 SET 命令中添加了两个新命令行开关:  
+    SET /A expression  
+    SET /P variable=[promptString]  
+/A 命令行开关指定等号右边的字符串为被评估的数字表达式。该表达式  
+评估器很简单并以递减的优先权顺序支持下列操作:  
+    ()                  - 分组  
+     ~ -               - 一元运算符  
+    * / %               - 算数运算符  
+    + -                 - 算数运算符  
+    &lt;&lt; &gt;&gt;               - 逻辑移位  
+    &                   - 按位“与”  
+    ^                   - 按位“异”  
+    |                   - 按位“或”  
+    = *= /= %= += -=    - 赋值  
+      &= ^= |= &lt;&lt;= &gt;&gt;=  
+    ,                   - 表达式分隔符  
+如果你使用任何逻辑或取余操作符， 你需要将表达式字符串用  
+引号扩起来。在表达式中的任何非数字字符串键作为环境变量  
+名称，这些环境变量名称的值已在使用前转换成数字。如果指定  
+了一个环境变量名称，但未在当前环境中定义，那么值将被定为  
+零。这使你可以使用环境变量值做计算而不用键入那些 % 符号  
+来得到它们的值。如果 SET /A 在命令脚本外的命令行执行的，  
+那么它显示该表达式的最后值。该分配的操作符在分配的操作符  
+左边需要一个环境变量名称。除十六进制有 0x 前缀，八进制  
+有 0 前缀的，数字值为十进位数字。因此，0x12 与 18 和 022   
+相同。请注意八进制公式可能很容易搞混: 08 和 09 是无效的数字，  
+因为 8 和 9 不是有效的八进制位数。(& )  
+/P 命令行开关允许将变量数值设成用户输入的一行输入。读取输入  
+行之前，显示指定的 promptString。promptString 可以是空的。  
+环境变量替换已如下增强:  
+    %PATH:str1=str2%  
+会扩展 PATH 环境变量，用 "str2" 代替扩展结果中的每个 "str1"。  
+要有效地从扩展结果中删除所有的 "str1"，"str2" 可以是空的。  
+"str1" 可以以星号打头；在这种情况下，"str1" 会从扩展结果的  
+开始到 str1 剩余部分第一次出现的地方，都一直保持相配。  
+也可以为扩展名指定子字符串。  
+    %PATH:~10,5%  
+会扩展 PATH 环境变量，然后只使用在扩展结果中从第 11 个(偏  
+移量 10)字符开始的五个字符。如果没有指定长度，则采用默认  
+值，即变量数值的余数。如果两个数字(偏移量和长度)都是负数，  
+使用的数字则是环境变量数值长度加上指定的偏移量或长度。  
+    %PATH:~-10%  
+会提取 PATH 变量的最后十个字符。  
+    %PATH:~0,-2%  
+会提取 PATH 变量的所有字符，除了最后两个。  
+终于添加了延迟环境变量扩充的支持。  
+该支持总是按默认值被停用，但也可以  
+通过 CMD.EXE 的 /V 命令行开关而被启用/停用。请参阅 CMD /?  
+考虑到读取一行文本时所遇到的目前扩充的限制时，延迟环境  
+变量扩充是很有用的，而不是执行的时候。  
+以下例子  
+说明直接变量扩充的问题:  
+ set VAR=before  
+ if "%VAR%" == "before" (  
+set VAR=after  
+ if "%VAR%" == "after" @echo If you see this, it worked )  
+不会显示消息，因为在读到第一个 IF 语句时，BOTH IF 语句中的 %VAR% 会被代替；  
+原因是: 它包含 IF 的文体  
+，IF 是一个复合语句。所以，  
+复合语句中的 IF 实际上是在比较 "before"  
+和"after"，这两者永远不会相等。同样，以下这个例子  
+也不会达到预期效果:  
+ set LIST=  
+ for% i in (*) do set LIST=%LIST%%i  
+ echo%LIST%  
+ 原因是，它不会在目前的目录中建立一个文件列表，  
+而只是将LIST 变量设成找到的最后一个文件。  
+这也是因为 %LIST% 在  
+FOR 语句被读取时，只被扩充了一次；而且，那时的 LIST 变量是空的。  
+因此，我们真正执行的 FOR 循环是:  
+ for% i in (*) do set LIST= %i  
+这个循环继续将 LIST 设成找到的最后一个文件。  
+延迟环境变量扩充允许你使用一个不同的  
+字符(惊叹号)在  
+执行时间扩充环境变量。如果延迟的变量扩充被启用，  
+可以将上面例子写成以下所示，以达到预期效果:  
+ set VAR=before   
+if "%VAR%" == "before" (  
+ set VAR=after  
+ if "" == "after" @echo If you see this, it worked  
+ )  
+ set LIST=  
+ for% i in (*) do set LIST= %i  
+ echo %LIST%  
+如果命令扩展被启用，有几个动态环境变量可以被扩展，但不会出现在 SET 显示的变  
+量列表中。每次变量数值被扩展时，这些变量数值都会被动态计算。如果用户用这些  
+名称中任何一个明确定义变量，那个定义会替代下面描述的动态定义:  
+%CD% - 扩展到当前目录字符串。  
+%DATE% - 用跟 DATE 命令同样的格式扩展到当前日期。  
+%TIME% - 用跟 TIME 命令同样的格式扩展到当前时间。  
+%RANDOM% - 扩展到 0 和 32767 之间的任意十进制数字。  
+%ERRORLEVEL% - 扩展到当前 ERRORLEVEL 数值。  
+%CMDEXTVERSION% - 扩展到当前命令处理器扩展版本号。  
+%CMDCMDLINE% - 扩展到调用命令处理器的原始命令行。  
+%HIGHESTNUMANODENUMBER% - 扩展到此计算机上的最高 NUMA 节点号。  
+</pre><a href="#top">返回页首</a><br><br>
+<a name="SETLOCAL"><h2>SETLOCAL</h2><pre>
+开始批处理文件中环境改动的本地化操作。在执行 SETLOCAL 之后
+所做的环境改动只限于批处理文件。要还原原先的设置，必须执
+行 ENDLOCAL。达到批处理文件结尾时，对于该批处理文件的每个
+尚未执行的 SETLOCAL 命令，都会有一个隐含的 ENDLOCAL 被执行。
+
+SETLOCAL
+
+如果启用命令扩展，则 SETLOCAL 更改如下:
+
+SETLOCAL 批命令现在可以接受可选参数:
+        ENABLEEXTENSIONS / DISABLEEXTENSIONS
+            启用或禁用命令处理器扩展。这些
+            参数比 CMD /E:ON 或 /E:OFF
+            开关有优先权。请参阅 CMD /? 获取详细信息。
+        ENABLEDELAYEDEXPANSION / DISABLEDELAYEDEXPANSION
+            启用或禁用延缓环境变量
+            扩展。这些参数比 CMD
+            /V:ON 或 /V:OFF 开关有优先权。请参阅 CMD /? 获取详细信息。
+无论在 SETLOCAL 命令之前的设置是什么，这些修改会一直
+生效，直到出现相应的 ENDLOCAL 命令。
+
+在给定参数的情况下，
+SETLOCAL 命令将设置 ERRORLEVEL 值。如果给定两个有效参数中的一个，另一个未给定，
+则该值为零。
+通过以下方法，你可以在批脚本中
+使用此项来确定扩展是否可用:
+
+    VERIFY OTHER 2>nul
+    SETLOCAL ENABLEEXTENSIONS
+    IF ERRORLEVEL 1 echo Unable to enable extensions
+
+此方法之所以有效，是因为在 CMD.EXE 的旧版本上，SETLOCAL
+不设置 ERRORLEVEL 值。如果参数不正确，VERIFY 命令会将
+ERRORLEVEL 值初始化为非零值。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="SC"><h2>SC</h2><pre>
+错误:  未知命令  
+描述:  
+        SC 是用来与服务控制管理器和服务进行通信  
+        的命令行程序。  
+用法:  
+        sc &lt;server&gt; [command] [service name] &lt;option1&gt; &lt;option2&gt;...  
+        &lt;server&gt; 选项的格式为 "\\ServerName"  
+        可通过键入以下命令获取有关命令的更多帮助: "sc [command]"  
+        命令:  
+          query-----------查询服务的状态，  
+                          或枚举服务类型的状态。  
+          queryex---------查询服务的扩展状态，  
+                          或枚举服务类型的状态。  
+          start-----------启动服务。  
+          pause-----------向服务发送 PAUSE 控制请求。  
+          interrogate-----向服务发送 INTERROGATE 控制请求。  
+          continue--------向服务发送 CONTINUE 控制请求。  
+          stop------------向服务发送 STOP 请求。  
+          config----------更改服务的配置(永久)。  
+          description-----更改服务的描述。  
+          failure---------更改失败时服务执行的操作。  
+          failureflag-----更改服务的失败操作标志。  
+          sidtype---------更改服务的服务 SID 类型。  
+          privs-----------更改服务的所需特权。  
+          managedaccount--更改服务以将服务帐户密码  
+                          标记为由 LSA 管理。  
+          qc--------------查询服务的配置信息。  
+          qdescription----查询服务的描述。  
+          qfailure--------查询失败时服务执行的操作。  
+          qfailureflag----查询服务的失败操作标志。  
+          qsidtype--------查询服务的服务 SID 类型。  
+          qprivs----------查询服务的所需特权。  
+          qtriggerinfo----查询服务的触发器参数。  
+          qpreferrednode--查询服务的首选 NUMA 节点。  
+          qmanagedaccount-查询服务是否将帐户  
+                          与 LSA 管理的密码结合使用。  
+          qprotection-----查询服务的进程保护级别。  
+          quserservice----查询用户服务模板的本地实例。  
+          delete ----------(从注册表中)删除服务。  
+          create----------创建服务(并将其添加到注册表中)。  
+          control---------向服务发送控制。  
+          sdshow----------显示服务的安全描述符。  
+          sdset-----------设置服务的安全描述符。  
+          showsid---------显示与任意名称对应的服务 SID 字符串。  
+          triggerinfo-----配置服务的触发器参数。  
+          preferrednode---设置服务的首选 NUMA 节点。  
+          GetDisplayName--获取服务的 DisplayName。  
+          GetKeyName------获取服务的 ServiceKeyName。  
+          EnumDepend------枚举服务依赖关系。  
+        以下命令不需要服务名称:  
+        sc &lt;server&gt; &lt;command&gt; &lt;option&gt;  
+          boot------------(ok | bad)指示是否应将上一次启动另存为  
+                          最近一次已知的正确启动配置  
+          Lock------------锁定服务数据库  
+          QueryLock-------查询 SCManager 数据库的 LockStatus  
+示例:  
+        sc start MyService  
+QUERY 和 QUERYEX 选项:  
+        如果查询命令带服务名称，将返回  
+        该服务的状态。其他选项不适合这种  
+        情况。如果查询命令不带参数或  
+        带下列选项之一，将枚举此服务。  
+    type=    要枚举的服务的类型(driver, service, userservice, all)  
+             (默认 = service)  
+    state=   要枚举的服务的状态 (inactive, all)  
+             (默认 = active)  
+    bufsize= 枚举缓冲区的大小(以字节计)  
+             (默认 = 4096)  
+    ri=      开始枚举的恢复索引号  
+             (默认 = 0)  
+    group=   要枚举的服务组  
+             (默认 = all groups)  
+语法示例  
+sc query                - 枚举活动服务和驱动程序的状态  
+sc query eventlog       - 显示 eventlog 服务的状态  
+sc queryex eventlog     - 显示 eventlog 服务的扩展状态  
+sc query type= driver   - 仅枚举活动驱动程序  
+sc query type= service  - 仅枚举 Win32 服务  
+sc query state= all     - 枚举所有服务和驱动程序  
+sc query bufsize= 50    - 枚举缓冲区为 50 字节  
+sc query ri= 14         - 枚举时恢复索引 = 14  
+sc queryex group= ""    - 枚举不在组内的活动服务  
+sc query type= interact - 枚举所有不活动服务  
+sc query type= driver group= NDIS     - 枚举所有 NDIS 驱动程序  
+</pre><a href="#top">返回页首</a><br><br>
+<a name="SCHTASKS"><h2>SCHTASKS</h2><pre>
+
+SCHTASKS /parameter [arguments] 
+
+描述:
+    允许管理员创建、删除、查询、更改、运行和中止本地或远程系统上的计划任
+    务。
+
+参数列表:
+    /Create         创建新计划任务。
+
+    /Delete         删除计划任务。
+
+    /Query          显示所有计划任务。
+
+    /Change         更改计划任务属性。
+
+    /Run            按需运行计划任务。
+
+    /End            中止当前正在运行的计划任务。
+
+    /ShowSid        显示与计划的任务名称相应的安全标识符。
+
+    /?              显示此帮助消息。
+
+Examples:
+    SCHTASKS 
+    SCHTASKS /?
+    SCHTASKS /Run /?
+    SCHTASKS /End /?
+    SCHTASKS /Create /?
+    SCHTASKS /Delete /?
+    SCHTASKS /Query  /?
+    SCHTASKS /Change /?
+    SCHTASKS /ShowSid /?
+</pre><a href="#top">返回页首</a><br><br>
+<a name="SHIFT"><h2>SHIFT</h2><pre>
+更改批处理文件中可替换参数的位置。
+
+SHIFT [/n]
+
+如果命令扩展被启用，SHIFT 命令支持/n 命令行开关；该命令行开关告诉
+命令从第 n 个参数开始移位；n 介于零和八之间。例如:
+
+    SHIFT /2
+
+会将 %3 移位到 %2，将 %4 移位到 %3，等等；并且不影响 %0 和 %1。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="SHUTDOWN"><h2>SHUTDOWN</h2><pre>
+用法: SHUTDOWN [/i | /l | /s | /sg | /r | /g | /a | /p | /h | /e | /o] [/hybrid] [/soft] [/fw] [/f]
+    [/m \\computer][/t xxx][/d [p|u:]xx:yy [/c "comment"]]
+
+    没有参数   显示帮助。这与键入 /? 是一样的。
+    /?         显示帮助。这与不键入任何选项是一样的。
+    /i         显示图形用户界面(GUI)。
+               这必须是第一个选项。
+    /l         注销。这不能与 /m 或 /d 选项一起使用。
+    /s         关闭计算机。
+    /sg        关闭计算机。在下一次启动时，如果启用了
+               自动重启登录，则将自动登录并锁定上次交互用户。
+               登录后，重启任何已注册的应用程序。
+    /r         完全关闭并重启计算机。
+    /g         完全关闭并重启计算机。重新启动系统后，
+               如果启用了自动重启登录，则将自动登录并
+               锁定上次交互用户。
+               登录后，重启任何已注册的应用程序。
+    /a         中止系统关闭。
+               这只能在超时期间使用。
+               与 /fw 结合使用，以清除任何未完成的至固件的引导。
+    /p         关闭本地计算机，没有超时或警告。
+               可以与 /d 和 /f 选项一起使用。
+    /h         休眠本地计算机。
+               可以与 /f 选项一起使用。
+    /hybrid    执行计算机关闭并进行准备以快速启动。
+               必须与 /s 选项一起使用。
+    /fw        与关闭选项结合使用，使下次启动转到
+               固件用户界面。
+    /e         记录计算机意外关闭的原因。
+    /o         转到高级启动选项菜单并重新启动计算机。
+               必须与 /r 选项一起使用。
+    /m \\computer 指定目标计算机。
+    /t xxx     将关闭前的超时时间设置为 xxx 秒。
+               有效范围是 0-315360000 (10 年)，默认值为 30。
+               如果超时时间大于 0，则默示为
+               /f 参数。
+    /c "comment" 有关重新启动或关闭的原因的注释。
+               最多允许 512 个字符。
+    /f         强制关闭正在运行的应用程序而不事先警告用户。
+               如果为 /t 参数指定大于 0 的值，
+               则默示为 /f 参数。
+    /d [p|u:]xx:yy  提供重新启动或关闭的原因。
+               p 指示重启或关闭是计划内的。
+               u 指示原因是用户定义的。
+               如果未指定 p 也未指定 u，则重新启动或关闭
+               是计划外的。
+               xx 是主要原因编号(小于 256 的正整数)。
+               yy 是次要原因编号(小于 65536 的正整数)。
+
+此计算机上的原因:
+(E = 预期 U = 意外 P = 计划内，C = 自定义)
+类别	主要 	次要	标题
+
+ U  	0	0	其他(计划外)
+E   	0	0	其他(计划外)
+E P 	0	0	其他(计划内)
+ U  	0	5	其他故障: 系统没有反应
+E   	1	1	硬件: 维护(计划外)
+E P 	1	1	硬件: 维护(计划内)
+E   	1	2	硬件: 安装(计划外)
+E P 	1	2	硬件: 安装(计划内)
+E   	2	2	操作系统: 恢复(计划外)
+E P 	2	2	操作系统: 恢复(计划内)
+  P 	2	3	操作系统: 升级(计划内)
+E   	2	4	操作系统: 重新配置(计划外)
+E P 	2	4	操作系统: 重新配置(计划内)
+  P 	2	16	操作系统: Service Pack (计划内)
+    	2	17	操作系统: 热修补(计划外)
+  P 	2	17	操作系统: 热修补(计划内)
+    	2	18	操作系统: 安全修补(计划外)
+  P 	2	18	操作系统: 安全修补(计划内)
+E   	4	1	应用程序: 维护(计划外)
+E P 	4	1	应用程序: 维护(计划内)
+E P 	4	2	应用程序: 安装(计划内)
+E   	4	5	应用程序: 没有反应
+E   	4	6	应用程序: 不稳定
+ U  	5	15	系统故障: 停止错误
+ U  	5	19	安全问题(计划外)
+E   	5	19	安全问题(计划外)
+E P 	5	19	安全问题(计划内)
+E   	5	20	网络连接丢失(计划外)
+ U  	6	11	电源故障: 电线被拔掉
+ U  	6	12	电源故障: 环境
+  P 	7	0	旧版 API 关机
+</pre><a href="#top">返回页首</a><br><br>
+<a name="SORT"><h2>SORT</h2><pre>
+SORT [/R] [/+n] [/M kilobytes] [/L locale] [/REC recordbytes]
+  [[drive1:][path1]filename1] [/T [drive2:][path2]]
+  [/O [drive3:][path3]filename3]
+  /+n                         Specifies the character number, n, to
+                              begin each comparison.  /+3 indicates that
+                              each comparison should begin at the 3rd
+                              character in each line.  Lines with fewer
+                              than n characters collate before other lines.
+                              By default comparisons start at the first
+                              character in each line.
+  /L[OCALE] locale            Overrides the system default locale with
+                              the specified one.  The ""C"" locale yields
+                              the fastest collating sequence and is
+                              currently the only alternative.  The sort
+                              is always case insensitive.
+  /M[EMORY] kilobytes         Specifies amount of main memory to use for
+                              the sort, in kilobytes.  The memory size is
+                              always constrained to be a minimum of 160
+                              kilobytes.  If the memory size is specified
+                              the exact amount will be used for the sort,
+                              regardless of how much main memory is
+                              available.
+
+                              The best performance is usually achieved by
+                              not specifying a memory size.  By default the
+                              sort will be done with one pass (no temporary
+                              file) if it fits in the default maximum
+                              memory size, otherwise the sort will be done
+                              in two passes (with the partially sorted data
+                              being stored in a temporary file) such that
+                              the amounts of memory used for both the sort
+                              and merge passes are equal.  The default
+                              maximum memory size is 90% of available main
+                              memory if both the input and output are
+                              files, and 45% of main memory otherwise.
+  /REC[ORD_MAXIMUM] characters 指定记录中的最大字符数量
+                              (默认值为 4096，最大值为 65535)。
+  /R[EVERSE]                  颠倒排列顺序，即，从 Z 到 A，再从 9 到 0。
+  [drive1:][path1]filename1   指定要排序的文件。如果没有指定，则排序标准
+                              输入。指定输入文件比将同一个文件重定向为标
+                              准输入快。
+  /T[EMPORARY]
+    [drive2:][path2]          指定保留排序工作存储的目录路径，以防主内
+                              存无法容纳数据。默认值是使用系统临时目录。
+  /O[UTPUT]
+    [drive3:][path3]filename3 指定在哪个文件中储存经过排序的输入。
+                              如果没有指定，数据会被写入标准输出。指定
+                              输出文件比将标准输出重定向到同一个文件快。
+
+</pre><a href="#top">返回页首</a><br><br>
+<a name="START"><h2>START</h2><pre>
+启动一个单独的窗口以运行指定的程序或命令。  
+START ["title"] [/D path] [/I] [/MIN] [/MAX] [/SEPARATE | /SHARED]  
+      [/LOW | /NORMAL | /HIGH | /REALTIME | /ABOVENORMAL | /BELOWNORMAL]  
+      [/NODE &lt;NUMA node&gt;] [/AFFINITY &lt;hex affinity mask&gt;] [/WAIT] [/B]  
+      [command/program] [parameters]  
+    "title"     在窗口标题栏中显示的标题。  
+    path        启动目录。  
+    B           启动应用程序，但不创建新窗口。  
+                应用程序已忽略 ^C 处理。除非应用程序  
+                启用 ^C 处理，否则 ^Break 是唯一可以中断  
+                该应用程序的方式。  
+    I           新的环境将是传递  
+                给 cmd.exe 的原始环境，而不是当前环境。  
+    MIN         以最小化方式启动窗口。  
+    MAX         以最大化方式启动窗口。  
+    SEPARATE    在单独的内存空间中启动 16 位 Windows 程序。  
+    SHARED      在共享内存空间中启动 16 位 Windows 程序。  
+    LOW         在 IDLE 优先级类中启动应用程序。  
+    NORMAL      在 NORMAL 优先级类中启动应用程序。  
+    HIGH        在 HIGH 优先级类中启动应用程序。  
+    REALTIME    在 REALTIME 优先级类中启动应用程序。  
+    ABOVENORMAL 在 ABOVENORMAL 优先级类中启动应用程序。  
+    BELOWNORMAL 在 BELOWNORMAL 优先级类中启动应用程序。  
+    NODE        将首选非一致性内存结构(NUMA)节点指定为  
+                十进制整数。  
+    AFFINITY    将处理器关联掩码指定为十六进制数字。  
+                进程被限制在这些处理器上运行。  
+                将 /AFFINITY 和 /NODE 结合使用时，会对关联掩码  
+                进行不同的解释。指定关联掩码，以便将零位作为起始位置(就如将 NUMA  
+                节点的处理器掩码向右移位一样)。  
+                进程被限制在指定关联掩码和 NUMA 节点之间的  
+                那些通用处理器上运行。  
+                如果没有通用处理器，则进程被限制在  
+                指定的 NUMA 节点上运行。  
+    WAIT        启动应用程序并等待它终止。  
+    command/program  
+                如果它是内部 cmd 命令或批文件，则  
+                该命令处理器是使用 cmd.exe 的 /K 开关运行的。  
+                这表示运行该命令之后，该窗口  
+                将仍然存在。  
+                如果它不是内部 cmd 命令或批文件，则  
+                它就是一个程序，并将作为一个窗口化应用程序或  
+                控制台应用程序运行。  
+    parameters  这些是传递给 command/program 的参数。  
+注意: 在 64 位平台上不支持 SEPARATE 和 SHARED 选项。  
+通过指定 /NODE，可按照利用 NUMA 系统中的内存区域的方式  
+创建进程。例如，可以创建两个完全  
+通过共享内存互相通信的进程以共享相同的首选 NUMA 节点，  
+从而最大限度地减少内存延迟。只要有可能，  
+它们就会分配来自相同 NUMA 节点的  
+内存，并且会在指定节点之外的处理器上自由运行。  
+    start /NODE 1 application1.exe  
+    start /NODE 1 application2.exe  
+这两个进程可被进一步限制在相同 NUMA 节点内的指定处理器  
+上运行。在以下示例中，application1 在  
+节点的两个低位处理器上运行，而 application2  
+在该节点的其后两个处理器上运行。该示例假定指定节点至少具有四个逻辑处理器。请注意，节点号可更改为该计算机的任何有效节点号，  
+而无需更改关联掩码。  
+    start /NODE 1 /AFFINITY 0x3 application1.exe  
+    启动 /NODE 1 /AFFINITY 0xc application2.exe  
+如果命令扩展被启用，通过命令行或 START 命令的外部命令  
+调用会如下改变:  
+将文件名作为命令键入，非可执行文件可以通过文件关联调用。  
+    (例如，WORD.DOC 会调用跟 .DOC 文件扩展名关联的应用程序)。  
+    关于如何从命令脚本内部创建这些关联，请参阅 ASSOC 和  
+     FTYPE 命令。  
+执行的应用程序是 32 位 GUI 应用程序时，CMD.EXE 不等应用  
+    程序终止就返回命令提示符。如果在命令脚本内执行，该新行为  
+    则不会发生。  
+如果执行的命令行的第一个符号是不带扩展名或路径修饰符的  
+    字符串 "CMD"，"CMD" 会被 COMSPEC 变量的数值所替换。这  
+    防止从当前目录提取 CMD.EXE。  
+如果执行的命令行的第一个符号没有扩展名，CMD.EXE 会使用  
+    PATHEXT 环境变量的数值来决定要以什么顺序寻找哪些扩展  
+    名。PATHEXT 变量的默认值是:  
+        .COM;.EXE;.BAT;.CMD  
+    请注意，该语法跟 PATH 变量的一样，分号隔开不同的元素。  
+查找可执行文件时，如果没有相配的扩展名，看一看该名称是否  
+与目录名相配。如果确实如此，START 会在那个路径上调用   
+Explorer。如果从命令行执行，则等同于对那个路径作 CD /D。  
+</pre><a href="#top">返回页首</a><br><br>
+<a name="SUBST"><h2>SUBST</h2><pre>
+将路径与驱动器号关联。
+
+SUBST [drive1: [drive2:]path]
+SUBST drive1: /D
+
+  drive1:        指定要分配路径的虚拟驱动器。
+  [drive2:]path  指定物理驱动器和要分配给虚拟驱动器的路径。
+  /D             删除被替换的
+(虚拟)驱动器。
+
+不带参数键入 SUBST，以显示当前虚拟驱动器的列表。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="SYSTEMINFO"><h2>SYSTEMINFO</h2><pre>
+
+SYSTEMINFO [/S system [/U username [/P [password]]]] [/FO format] [/NH]
+
+描述:
+    该工具显示本地或远程机器(包括服务包级别)的操作系统配置的信息。
+
+参数列表:
+    /S      system           指定要连接的远程系统。
+
+    /U      [domain\]user    指定应该在哪个用户上下文执行命令。
+
+
+    /P      [password]       指定给定用户上下文的密码。如果省略则
+                             提示输入。
+
+    /FO     format           指定显示结果的格式。
+                             有效值: "TABLE"、"LIST"、"CSV"。
+
+    /NH                      指定“列标题”不应该在输出中显示。
+                             只对 "TABLE" 和 "CSV" 格式有效。
+
+    /?                       显示帮助消息。
+
+
+例如:
+    SYSTEMINFO
+    SYSTEMINFO /?
+    SYSTEMINFO /S system
+    SYSTEMINFO /S system /U user
+    SYSTEMINFO /S system /U domain\user /P password /FO TABLE
+    SYSTEMINFO /S system /FO LIST
+    SYSTEMINFO /S system /FO CSV /NH
+</pre><a href="#top">返回页首</a><br><br>
+<a name="TASKLIST"><h2>TASKLIST</h2><pre>
+
+TASKLIST [/S system [/U username [/P [password]]]]
+         [/M [module] | /SVC | /V] [/FI filter] [/FO format] [/NH]
+
+描述:
+    该工具显示在本地或远程机器上当前运行的进程列表。
+
+
+参数列表:
+   /S     system           指定连接到的远程系统。
+
+   /U     [domain\]user    指定应该在哪个用户上下文执行这个命令。
+
+   /P     [password]       为提供的用户上下文指定密码。如果省略，则
+                           提示输入。
+
+   /M     [module]         列出当前使用所给 exe/dll 名称的所有任务。
+                           如果没有指定模块名称，显示所有加载的模块。
+
+   /SVC                    显示每个进程中主持的服务。
+
+   /APPS 显示 Microsoft Store 应用及其关联的进程。
+
+   /V                      显示详细任务信息。
+
+   /FI    filter           显示一系列符合筛选器
+                           指定条件的任务。
+
+   /FO    format           指定输出格式。
+                           有效值: "TABLE"、"LIST"、"CSV"。
+
+   /NH                     指定列标题不应该
+                           在输出中显示。
+                           只对 "TABLE" 和 "CSV" 格式有效。
+
+   /?                      显示此帮助消息。
+
+筛选器:
+    筛选器名称     有效运算符           有效值
+    -----------     ---------------           --------------------------
+    STATUS          eq, ne                    RUNNING | SUSPENDED
+                                              NOT RESPONDING | UNKNOWN
+    IMAGENAME       eq, ne                    映像名称
+    PID             eq, ne, gt, lt, ge, le    PID 值
+    SESSION         eq, ne, gt, lt, ge, le    会话编号
+    SESSIONNAME     eq, ne                    会话名称
+    CPUTIME         eq, ne, gt, lt, ge, le    CPU 时间，格式为
+                                              hh:mm:ss。
+                                              hh - 小时，
+                                              mm - 分钟，ss - 秒
+    MEMUSAGE        eq, ne, gt, lt, ge, le    内存使用(以 KB 为单位)
+    USERNAME        eq, ne                    用户名，格式为
+                                              [域\]用户
+    SERVICES        eq, ne                    服务名称
+    WINDOWTITLE     eq, ne                    窗口标题
+    模块         eq, ne                    DLL 名称
+
+注意: 当查询远程计算机时，不支持 "WINDOWTITLE" 和 "STATUS"
+      筛选器。
+
+Examples:
+    TASKLIST
+    TASKLIST /M
+    TASKLIST /V /FO CSV
+    TASKLIST /SVC /FO LIST
+    TASKLIST /APPS /FI "STATUS eq RUNNING"
+    TASKLIST /M wbem*
+    TASKLIST /S system /FO LIST
+    TASKLIST /S system /U 域\用户名 /FO CSV /NH
+    TASKLIST /S system /U username /P password /FO TABLE /NH
+    TASKLIST /FI "USERNAME ne NT AUTHORITY\SYSTEM" /FI "STATUS eq running"
+</pre><a href="#top">返回页首</a><br><br>
+<a name="TASKKILL"><h2>TASKKILL</h2><pre>
+
+TASKKILL [/S system [/U username [/P [password]]]]
+         { [/FI filter] [/PID processid | /IM imagename] } [/T] [/F]
+
+描述:
+    使用该工具按照进程 ID (PID) 或映像名称终止任务。
+
+参数列表:
+    /S    system           指定要连接的远程系统。
+
+    /U    [domain\]user    指定应该在哪个用户上下文执行这个命令。
+
+    /P    [password]       为提供的用户上下文指定密码。如果忽略，提示
+                           输入。
+
+    /FI   filter           应用筛选器以选择一组任务。
+                           允许使用 "*"。例如，映像名称 eq acme*
+
+    /PID  processid        指定要终止的进程的 PID。
+                           使用 TaskList 取得 PID。
+
+    /IM   imagename        指定要终止的进程的映像名称。通配符 '*'可用来
+                           指定所有任务或映像名称。
+
+    /T                     终止指定的进程和由它启用的子进程。
+
+    /F                     指定强制终止进程。
+
+    /?                     显示帮助消息。
+
+筛选器:
+    筛选器名      有效运算符                有效值
+    -----------   ---------------           -------------------------
+    STATUS        eq, ne                    RUNNING |
+                                            NOT RESPONDING | UNKNOWN
+    IMAGENAME     eq, ne                    映像名称
+    PID           eq, ne, gt, lt, ge, le    PID 值
+    SESSION       eq, ne, gt, lt, ge, le    会话编号。
+    CPUTIME       eq, ne, gt, lt, ge, le    CPU 时间，格式为
+                                            hh:mm:ss。
+                                            hh - 时，
+                                            mm - 分，ss - 秒
+    MEMUSAGE      eq, ne, gt, lt, ge, le    内存使用量，单位为 KB
+    USERNAME      eq, ne                    用户名，格式为 [domain\]user
+    MODULES       eq, ne                    DLL 名称
+    SERVICES      eq, ne                    服务名称
+    WINDOWTITLE   eq, ne                    窗口标题
+
+    说明
+    ----
+    1) 只有在应用筛选器的情况下，/IM 切换才能使用通配符 '*'。
+    2) 远程进程总是要强行 (/F) 终止。
+    3) 当指定远程机器时，不支持 "WINDOWTITLE" 和 "STATUS" 筛选器。
+
+例如:
+    TASKKILL /IM notepad.exe
+    TASKKILL /PID 1230 /PID 1241 /PID 1253 /T
+    TASKKILL /F /IM cmd.exe /T 
+    TASKKILL /F /FI "PID ge 1000" /FI "WINDOWTITLE ne untitle*"
+    TASKKILL /F /FI "USERNAME eq NT AUTHORITY\SYSTEM" /IM notepad.exe
+    TASKKILL /S system /U 域\用户名 /FI "用户名 ne NT*" /IM *
+    TASKKILL /S system /U username /P password /FI "IMAGENAME eq note*"
+</pre><a href="#top">返回页首</a><br><br>
+<a name="TIME"><h2>TIME</h2><pre>
+显示或设置系统时间。
+
+TIME [/T | time]
+
+显示当前时间设置和输入新时间的提示，请键入
+不带参数的 TIME。要保留现有时间，请按 Enter。
+
+如果命令扩展被启用，TIME 命令会支持 /T 命令行开关；该命令行开关告诉
+命令只输出当前时间，但不提示输入新时间。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="TITLE"><h2>TITLE</h2><pre>
+设置命令提示窗口的窗口标题。
+
+TITLE [string]
+
+  string       指定命令提示窗口的标题。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="TREE"><h2>TREE</h2><pre>
+以图形显示驱动器或路径的文件夹结构。
+
+TREE [drive:][path] [/F] [/A]
+
+   /F   显示每个文件夹中文件的名称。
+   /A   使用 ASCII 字符，而不使用扩展字符。
+
+</pre><a href="#top">返回页首</a><br><br>
+<a name="TYPE"><h2>TYPE</h2><pre>
+显示文本文件的内容。
+
+TYPE [drive:][path]filename
+</pre><a href="#top">返回页首</a><br><br>
+<a name="VER"><h2>VER</h2><pre>
+显示 Windows 版本。
+
+VER
+</pre><a href="#top">返回页首</a><br><br>
+<a name="VERIFY"><h2>VERIFY</h2><pre>
+指示 cmd.exe 是否要验证文件是否已正确地写入磁盘。
+  
+VERIFY [ON | OFF]
+
+要显示当前 VERIFY 设置，键入不带参数的 VERIFY。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="VOL"><h2>VOL</h2><pre>
+显示磁盘卷标和序列号(如果存在)。
+
+VOL [drive:]
+</pre><a href="#top">返回页首</a><br><br>
+<a name="XCOPY"><h2>XCOPY</h2><pre>
+复制文件和目录树。
+
+XCOPY source [destination] [/A | /M] [/D[:date]] [/P] [/S [/E]] [/V] [/W]
+                           [/C] [/I] [/Q] [/F] [/L] [/G] [/H] [/R] [/T] [/U]
+                           [/K] [/N] [/O] [/X] [/Y] [/-Y] [/Z] [/B] [/J]
+                           [/EXCLUDE:file1[+file2][+file3]...] [/COMPRESS]
+
+  source       指定要复制的文件。
+  destination  指定新文件的位置和/或名称。
+  /A           仅复制有存档属性集的文件，
+               但不更改属性。
+  /M           仅复制有存档属性集的文件，
+               并关闭存档属性。
+  /D:m-d-y     复制在指定日期或指定日期以后更改的文件。
+               如果没有提供日期，则只复制
+               源时间比目标时间新的文件。
+  /EXCLUDE:file1[+file2][+file3]...
+               指定含有字符串的文件列表。每个字符串
+               在文件中应位于单独的一行。如果任何
+               字符串与复制文件的绝对路径的任何部分相符，
+               则排除复制该文件。例如，
+               指定如 \obj\ 或 .obj 的字符串会分别
+               排除目录 obj 下面的所有文件或带有
+               .obj 扩展名的所有文件。
+  /P           创建每个目标文件之前均进行提示。
+  /S           复制目录和子目录，不包括空目录。
+  /E           复制目录和子目录，包括空目录。
+               与 /S /E 相同。可以用来修改 /T。
+  /V           验证每个新文件的大小。
+  /W           提示在复制前按键。
+  /C           即使有错误，也继续复制。
+  /I           如果目标不存在，且要复制多个文件，
+               则假定目标必须是目录。
+  /Q           复制时不显示文件名。
+  /F           复制时显示完整的源文件名和目标文件名。
+  /L           显示要复制的文件。
+  /G           允许将加密文件复制到
+               不支持加密的目标。
+  /H           隐藏文件和系统文件也会复制。
+  /R           覆盖只读文件。
+  /T           创建目录结构，但不复制文件。不
+               包括空目录或子目录。/T /E 包括
+               空目录和子目录。
+  /U           只复制已经存在于目标中的文件。
+  /K           复制属性。一般的 Xcopy 会重置只读属性。
+  /N           用生成的短名称复制。
+  /O           复制文件所有权和 ACL 信息。
+  /X           复制文件审核设置(隐含 /O)。
+  /Y           取消提示以确认要覆盖
+               现有目标文件。
+  /-Y          触发提示，以确认要覆盖
+               现有目标文件。
+  /Z           在可重新启动模式下复制网络文件。
+  /B           复制符号链接本身与链接目标。
+  /J           复制时不使用缓冲的 I/O。推荐复制大文件时使用。
+  /COMPRESS    如果适用，在传输期间请求网络
+               压缩。
+
+开关 /Y 可以预先在 COPYCMD 环境变量中设置。
+这可能被命令行上的 /-Y 覆盖。
+</pre><a href="#top">返回页首</a><br><br>
+<a name="WMIC"><h2>WMIC</h2><pre>
+ECHO 处于关闭状态。
+WMIC 已弃用。  
+ECHO 处于关闭状态。
+[全局开关] &lt;命令&gt;  
+ECHO 处于关闭状态。
+可以使用以下全局开关:  
+/NAMESPACE           别名在其上操作的命名空间的路径。  
+/ROLE                包含别名定义的角色的路径。  
+/NODE                别名在其上操作的服务器。  
+/IMPLEVEL            客户端模拟级别。  
+/AUTHLEVEL           客户端身份验证级别。  
+/LOCALE              客户端应使用的语言 ID。  
+/PRIVILEGES          启用或禁用所有权限。  
+/TRACE               将调试信息输出到 stderr。  
+/RECORD              记录所有输入命令和输出内容。  
+/INTERACTIVE         设置或重置交互模式。  
+/FAILFAST            设置或重置 FailFast 模式。  
+/USER                会话期间要使用的用户。  
+/PASSWORD            登录会话时要使用的密码。  
+/OUTPUT              指定输出重定向模式。  
+/APPEND              指定输出重定向模式。  
+/AGGREGATE           设置或重置聚合模式。  
+/AUTHORITY           指定连接的 &lt;授权类型&gt;。  
+显示消息，或者启用或关闭命令回显。
+
+  ECHO [ON | OFF]
+  ECHO [message]
+
+若要显示当前回显设置，请键入不带参数的 ECHO。
+ECHO 处于关闭状态。
+有关特定全局开关的详细信息，请键入: switch-name /?  
+ECHO 处于关闭状态。
+ECHO 处于关闭状态。
+当前角色中可以使用以下别名:  
+ALIAS                    - 对本地系统上可用别名的访问  
+BASEBOARD                - 基板(也称为主板或系统板)管理。  
+BIOS                     - 基本输入/输出服务(BIOS)管理。  
+BOOTCONFIG               - 启动配置管理。  
+CDROM                    - CD-ROM 管理。  
+COMPUTERSYSTEM           - 计算机系统管理。  
+CPU                      - CPU 管理。  
+CSPRODUCT                - SMBIOS 中的计算机系统产品信息。  
+DATAFILE                 - 数据文件管理。  
+DCOMAPP                  - DCOM 应用程序管理。  
+DESKTOP                  - 用户的桌面管理。  
+DESKTOPMONITOR           - 桌面监视器管理。  
+DEVICEMEMORYADDRESS      - 设备内存地址管理。  
+DISKDRIVE                - 物理磁盘驱动器管理。  
+DISKQUOTA                - 用于 NTFS 卷的磁盘空间使用量。  
+DMACHANNEL               - 直接内存访问(DMA)通道管理。  
+ENVIRONMENT              - 系统环境设置管理。  
+FSDIR                    - 文件系统目录项管理。  
+GROUP                    - 组帐户管理。  
+IDECONTROLLER            - IDE 控制器管理。  
+IRQ                      - 中断请求线路(IRQ)管理。  
+JOB                      - 提供对使用计划服务安排的作业的访问。  
+LOADORDER                - 定义执行依赖关系的系统服务的管理。  
+LOGICALDISK              - 本地存储设备管理。  
+LOGON                    - 登录会话。  
+MEMCACHE                 - 缓存内存管理。  
+MEMORYCHIP               - 内存芯片信息。  
+MEMPHYSICAL              - 计算机系统的物理内存管理。  
+NETCLIENT                - 网络客户端管理。  
+NETLOGIN                 - 网络登录信息(属于特定用户)管理。  
+NETPROTOCOL              - 协议(及其网络特征)管理。  
+NETUSE                   - 活动网络连接管理。  
+NIC                      - 网络接口控制器(NIC)管理。  
+NICCONFIG                - 网络适配器管理。  
+NTDOMAIN                 - NT 域管理。  
+NTEVENT                  - NT 事件日志中的项目。  
+NTEVENTLOG               - NT 事件日志文件管理。  
+ONBOARDDEVICE            - 主板(系统板)中内置的通用适配器设备的管理。  
+OS                       - 已安装操作系统的管理。  
+PAGEFILE                 - 虚拟内存文件交换管理。  
+PAGEFILESET              - 页面文件设置管理。  
+PARTITION                - 物理磁盘的已分区区域的管理。  
+PORT                     - I/O 端口管理。  
+PORTCONNECTOR            - 物理连接端口管理。  
+PRINTER                  - 打印机设备管理。  
+PRINTERCONFIG            - 打印机设备配置管理。  
+PRINTJOB                 - 打印作业管理。  
+PROCESS                  - 进程管理。  
+PRODUCT                  - 安装程序包任务管理。  
+QFE                      - 快速修复工程。  
+QUOTASETTING             - 卷上的磁盘配额设置信息。  
+RDACCOUNT                - 远程桌面连接权限管理。  
+RDNIC                    - 对特定网络适配器的远程桌面连接管理。  
+RDPERMISSIONS            - 特定远程桌面连接的权限。  
+RDTOGGLE                 - 远程打开或关闭远程桌面侦听程序。  
+RECOVEROS                - 操作系统出现故障时将从内存收集的信息。  
+REGISTRY                 - 计算机系统注册表管理。  
+SCSICONTROLLER           - SCSI 控制器管理。  
+SERVER                   - 服务器信息管理。  
+SERVICE                  - 服务应用程序管理。  
+SHADOWCOPY               - 卷影副本管理。  
+SHADOWSTORAGE            - 卷影副本存储区域管理。  
+SHARE                    - 共享资源管理。  
+SOFTWAREELEMENT          - 系统上安装的软件产品元素的管理。  
+SOFTWAREFEATURE          - SoftwareElement 的软件产品子集的管理。  
+SOUNDDEV                 - 声音设备管理。  
+STARTUP                  - 当用户登录到计算机系统时自动运行的命令的管理。  
+SYSACCOUNT               - 系统帐户管理。  
+SYSDRIVER                - 基本服务的系统驱动程序管理。  
+SYSTEMENCLOSURE          - 物理系统外壳管理。  
+SYSTEMSLOT               - 物理连接点(包括端口、插槽和外设以及专用连接点)的管理。  
+TAPEDRIVE                - 磁带驱动器管理。  
+TEMPERATURE              - 温度传感器(电子温度计)数据管理。  
+TIMEZONE                 - 时区数据管理。  
+UPS                      - 不间断电源(UPS)管理。  
+USERACCOUNT              - 用户帐户管理。  
+VOLTAGE                  - 电压传感器(电子电压表)数据管理。  
+VOLUME                   - 本地存储卷管理。  
+VOLUMEQUOTASETTING       - 将磁盘配额设置与特定磁盘卷相关联。  
+VOLUMEUSERQUOTA          - 每用户存储卷配额管理。  
+WMISET                   - WMI 服务操作参数管理。  
+ECHO 处于关闭状态。
+有关特定别名的详细信息，请键入: alias /?  
+ECHO 处于关闭状态。
+CLASS     - 按 Esc 键可获取完整 WMI 架构。  
+PATH      - 按 Esc 键可获取完整 WMI 对象路径。  
+CONTEXT   - 显示所有全局开关的状态。  
+QUIT/EXIT - 退出程序。  
+ECHO 处于关闭状态。
+有关 CLASS/PATH/CONTEXT 的详细信息，请键入: (CLASS | PATH | CONTEXT) /?  
+ECHO 处于关闭状态。
+</pre><a href="#top">返回页首</a><br><br>
